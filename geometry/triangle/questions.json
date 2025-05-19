@@ -1,0 +1,102 @@
+[
+{ 
+      "question": "What is the perimeter <br> of a triangle with sides 1, 4, and 5?",
+      "correctAnswer": "10",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 8, 9, and 9?",
+      "correctAnswer": "26",
+      "options": [
+        "21",
+        "22",
+        "28",
+        "26"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 2, 9, and 6?",
+      "correctAnswer": "17",
+      "options": [
+        "18",
+        "17",
+        "12",
+        "20"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 6, 3, and 6?",
+      "correctAnswer": "15",
+      "options": [
+        "15",
+        "14",
+        "10",
+        "19"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 2, 4, and 5?",
+      "correctAnswer": "11",
+      "options": [
+        "10",
+        "11",
+        "7",
+        "15"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 4, 5, and 4?",
+      "correctAnswer": "13",
+      "options": [
+        "13",
+        "11",
+        "8",
+        "16"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 7, 6, and 3?",
+      "correctAnswer": "16",
+      "options": [
+        "16",
+        "12",
+        "17",
+        "19"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 4, 2, and 6?",
+      "correctAnswer": "12",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "10"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 9, 2, and 5?",
+      "correctAnswer": "16",
+      "options": [
+        "16",
+        "13",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "question": "What is the perimeter <br> of a triangle with sides 3, 3, and 3?",
+      "correctAnswer": "9",
+      "options": [
+        "9",
+        "11",
+        "6",
+        "10"
+      ]
+    }
+]

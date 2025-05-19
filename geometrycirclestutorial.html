@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circles Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bg-music-player.js"></script>
+    <style>
+        * {
+            user-select: none;
+            cursor: url('cursor.png'), auto;
+        }
+
+        body {
+            background-image: url('junglebackground.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .snake {
+            position: absolute;
+            top: 55%;
+            left: 4%;
+        }
+
+        .board img {
+            width: 100%;
+            height: 162%;
+            position: absolute;
+            left: 10%;
+            top: -40%;
+            display: none;
+            opacity: 0;
+        }
+
+        .choice1 {
+            position: absolute;
+            bottom: -15%;
+            left: 65%;
+        }
+
+        .choice2 {
+            position: absolute;
+            bottom: -15%;
+            right: 40%;
+            display: none;
+        }
+
+        .mean,
+        .example,
+        .solution,
+        .solution2,
+        .preparation {
+            display: none;
+            opacity: 0;
+            position: absolute;
+            text-align: center;
+            font-size: 58px;
+            z-index: 2;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 
+            -2px -2px 0 black,  
+             1px -1px 0 black,
+            -1px  1px 0 black,
+             1px  1px 0 black;
+        }
+
+        .mean {
+            left: 33%;
+            top: 6.5%;
+            display: block; 
+            text-align: left; 
+            font-size: 51px;
+        }
+
+        .example {
+            left: 35%;
+            top: 7%;
+            font-size: 39px;
+            display: block;
+             text-align: left;
+        }
+
+        .solution {
+            left: 32%;
+            top: 8%;
+            font-size: 48px;
+        }
+
+        .solution2 {
+            left: 36%;
+            top: 7%;
+            font-size: 49px;
+        }
+
+        .bubble {
+            position: absolute; 
+            height: 50%;
+            width: 60%;
+            left: 1%;
+            top: 20%;
+            z-index: 3;
+        }
+
+        .greetings {
+            position: absolute; 
+            top: 22%; 
+            left: 5%;
+            width: 50%; 
+            color: black;
+            font-size: 50px;
+            font-family: 'Playfair Display', serif;
+            z-index: 4; 
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        .preparation {
+            position: absolute; 
+            top: 28%; 
+            left: 5%;
+            width: 50%; 
+            color: black;
+            font-size: 2.8646vw;
+            font-family: 'Playfair Display', serif;
+            z-index: 20; 
+            text-align: center;
+            animation: fadeIn 2s forwards;
+            display: none;
+            text-shadow: none;
+        }
+
+        .bubble-container {
+            position: relative; 
+            width: 100%;
+            height: 100vh; 
+        }
+
+        .choice1 button {
+            position: absolute;
+            top: 37%;
+            left: 27%;
+            z-index: 10; 
+            background-color: transparent;
+            border: none;
+            font-size: 70px;
+            cursor: pointer;
+            font-family: 'Playfair Display', serif;
+        }
+
+        button:hover {
+            color: orange;
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        
+        }
+    
+    </style>
+</head>
+<body onload="startAnimations()">
+    <div class="bubble-container">
+        <img src="bubble.png" class="bubble">
+        <p class="greetings">My fellow Adventurer! Nice to see you again! Are you here to continue to discover new knowledge?</p>
+    </div>
+    
+    <div class="snake">
+        <img src="snake.png">
+    </div>
+
+    <div class="board">
+        <p class="mean">📐 Welcome to Geometry!<br><br>Geometry is a branch of math that deals with <br>
+            shapes, sizes, and the space things take up.<br> Today, we'll examine one of the 
+            most <br> important shapes in geometry: the circle.</p>
+        <img src="board.png">
+    </div>
+
+    <div class="example">
+        <p>What Is a Circle? A <span style="color:rgb(12, 175, 12)">circle</span> is a perfectly round shape.<br>
+           <span style="color:rgb(12, 175, 12)"> Center</span>: The center is the exact middle point of a circle. <br>
+           <span style="color:rgb(12, 175, 12)">Radius</span>: The radius is a straight line from the center to <br> the circle's edge. <br>
+           <span style="color:rgb(12, 175, 12)">Diameter</span>: The diameter goes through the center and is<br> twice the length of the radius (Diameter = 2 × Radius). <br>
+            <span style="color:rgb(12, 175, 12)">Circumference</span>: The circumference is the total distance <br> around the circle (Circumference = 2πr). <br>
+            <span style="color:rgb(12, 175, 12)">Area</span>: The area is the amount of space inside the circle<br>  (Area = πr²).</p>
+    </div>
+
+    <div class="solution">
+        <p>Example Problem:<br>
+           <span style="display: block; text-align: left; ">Problem:
+           A circular garden has a radius of 7 meters. <br> Find the following :
+             The diameter, circumference, <br>  and area.</span> 
+             <span style="display: block; text-align: left; margin: -6% 1px;  color: lightseagreen;"> <br> Given:<br>
+           Radius (r) = 7 meters <br>
+           π (pi) ≈ 3.14 </span>
+        </p>
+    </div>
+
+    <div class="solution2">
+        <span style="display: block; text-align: left; "> <p><span style="color:forestgreen">FORMULA:</span>  <br>
+            Diameter (D) = <span style="color:mediumaquamarine"> 2 x Radius (r)</span> <br>
+            Circumference (C) = <span style="color:mediumaquamarine"> 2 x π x Radius (r)</span> <br>
+            Area (A) = <span style="color:mediumaquamarine">π x Radius (r) x Radius (r) </span><br>
+            <span style="color:forestgreen">SOLUTION: </span><br>
+            Diameter (D) = <span style="color:mediumaquamarine">2 x 7 </span>= <span style="color:lightgreen"> 14 meters <br></span>
+            Circumference (C) =<span style="color:mediumaquamarine"> 2 x 3.14 x 7</span> = <span style="color:lightgreen">42.8 meters <br></span>
+            Area (A) = <span style="color:mediumaquamarine">3.14 x 7 x 7</span> = <span style="color:lightgreen">153.9 meters</span>
+        </p></span>
+    </div>
+
+    <div class="preparation">
+        <p>Are you ready to take the journey of learning geometry?</p>
+    </div>
+
+    <div class="choice1">
+        <button onclick="handleNext()" class="next">Next ➤</button>
+        <img src="woodencanvas.png">
+    </div>
+
+    <div class="choice2">
+        <img src="woodencanvas.png">
+    </div>
+
+    <script>
+        let skipAnimations = false;
+        let typingTimeout = null;
+        let currentStep = 1;
+
+        function startAnimations() {
+            const greetings = document.querySelector(".greetings");
+            greetings.style.animation = "fadeIn 2s forwards";
+        }
+
+        function typeText(element, text, speed = 50) {
+            if (skipAnimations) {
+                element.textContent = text;
+                return;
+            }
+
+            if (typingTimeout) {
+                clearTimeout(typingTimeout);
+            }
+
+            let i = 0;
+            element.textContent = "";
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    typingTimeout = setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        function fadeInElement(element) {
+            element.style.display = "block";
+            element.style.opacity = "0";
+            element.style.animation = "none";
+            void element.offsetWidth; // trigger reflow
+            element.style.animation = "fadeIn 2s forwards";
+        }
+
+        function skipAllAnimations() {
+            skipAnimations = true;
+            if (typingTimeout) clearTimeout(typingTimeout);
+
+            const greetings = document.querySelector(".greetings");
+            const bubble = document.querySelector(".bubble");
+            const mean = document.querySelector(".mean");
+            const boardImg = document.querySelector(".board img");
+            const example = document.querySelector(".example");
+            const solution = document.querySelector(".solution");
+            const solution2 = document.querySelector(".solution2");
+            const preparation = document.querySelector(".preparation");
+
+            greetings.textContent = "Since you found me, why not let me teach you some lesson about statistics?";
+            greetings.style.top = "25%";
+            greetings.style.opacity = "1";
+            greetings.style.display = "block";
+
+            bubble.style.display = "none";
+
+            mean.style.display = "block";
+            mean.style.opacity = "1";
+
+            boardImg.style.display = "block";
+            boardImg.style.opacity = "1";
+
+            example.style.display = "block";
+            example.style.opacity = "1";
+
+            solution.style.display = "block";
+            solution.style.opacity = "1";
+
+            solution2.style.display = "block";
+            solution2.style.opacity = "1";
+
+            preparation.style.display = "block";
+            preparation.style.opacity = "1";
+
+            document.querySelector(".next").setAttribute("onclick", "next10()");
+        }
+
+        function handleNext() {
+            if (skipAnimations) {
+                skipAllAnimations();
+                return;
+            }
+
+            switch (currentStep) {
+                case 1: next1(); break;
+                case 2: next2(); break;
+                case 3: next3(); break;
+                case 4: next4(); break;
+                case 5: next5(); break;
+                case 6: next6(); break;
+                case 7: next7(); break;
+                case 8: next8(); break;
+                case 9: next9(); break;
+                case 10: next10(); break;
+            }
+            currentStep++;
+        }
+
+        function next1() {
+            const greetings = document.querySelector(".greetings");
+            typeText(greetings, "Since you're here, let's continue to learn. Starting with circles!");
+            greetings.style.top = "25%";
+        }
+
+        function next2() {
+            const greetings = document.querySelector(".greetings");
+            typeText(greetings, "Shall we begin?");
+            greetings.style.fontSize = "100px";
+            greetings.style.top = "20%";
+        }
+
+        function next3() {
+            document.querySelector(".bubble").style.display = "none";
+            document.querySelector(".greetings").style.display = "none";
+            fadeInElement(document.querySelector(".mean"));
+            fadeInElement(document.querySelector(".board img"));
+        }
+
+        function next4() {
+            fadeInElement(document.querySelector(".example"));
+            fadeInElement(document.querySelector(".board img"));
+            document.querySelector(".mean").style.display = "none";
+        }
+
+        function next5() {
+            fadeInElement(document.querySelector(".solution"));
+            document.querySelector(".example").style.display = "none";
+        }
+
+        function next6() {
+            fadeInElement(document.querySelector(".solution2"));
+            document.querySelector(".solution").style.display = "none";
+        }
+
+        function next7() {
+            fadeInElement(document.querySelector(".solution2"));
+        }
+
+        function next8() {
+            document.querySelector(".solution").style.display = "none";
+            document.querySelector(".solution2").style.display = "none";
+            document.querySelector(".board").style.display = "none";
+        }
+
+        function next9() {
+            document.querySelector(".bubble").style.display = "block";
+            fadeInElement(document.querySelector(".preparation"));
+            typeText(document.querySelector(".preparation"), "Are you ready to take the journey of learning geometry?");
+        }
+
+        function next10() {
+            window.location.href = "geometrycircleslevel.html";
+        }
+    </script>
+</body>
+</html>

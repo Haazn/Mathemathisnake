@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a triangle with<br> base 18 and height 45?",
+      "correctAnswer": "405.0",
+      "options": [
+        "402.5",
+        "405.0",
+        "409.0",
+        "407.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 10 and height 12?",
+      "correctAnswer": "60.0",
+      "options": [
+        "57.5",
+        "60.0",
+        "64.0",
+        "62.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 27 and height 22?",
+      "correctAnswer": "297.0",
+      "options": [
+        "301.0",
+        "299.5",
+        "297.0",
+        "294.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 45 and height 44?",
+      "correctAnswer": "990.0",
+      "options": [
+        "987.5",
+        "994.0",
+        "990.0",
+        "992.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 48 and height 6?",
+      "correctAnswer": "144.0",
+      "options": [
+        "141.5",
+        "148.0",
+        "144.0",
+        "146.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 41 and height 27?",
+      "correctAnswer": "553.5",
+      "options": [
+        "557.5",
+        "551.0",
+        "556.0",
+        "553.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 43 and height 26?",
+      "correctAnswer": "559.0",
+      "options": [
+        "561.5",
+        "556.5",
+        "559.0",
+        "563.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 11 and height 20?",
+      "correctAnswer": "110.0",
+      "options": [
+        "107.5",
+        "114.0",
+        "112.5",
+        "110.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 22 and height 4?",
+      "correctAnswer": "44.0",
+      "options": [
+        "41.5",
+        "48.0",
+        "44.0",
+        "46.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 11 and height 12?",
+      "correctAnswer": "66.0",
+      "options": [
+        "68.5",
+        "66.0",
+        "70.0",
+        "63.5"
+      ]
+    }
+]

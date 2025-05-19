@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a square with<br> side length 8?",
+      "correctAnswer": "64",
+      "options": [
+        "62",
+        "69",
+        "66",
+        "64"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 1?",
+      "correctAnswer": "1",
+      "options": [
+        "-1",
+        "1",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 6?",
+      "correctAnswer": "36",
+      "options": [
+        "38",
+        "36",
+        "41",
+        "34"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 5?",
+      "correctAnswer": "25",
+      "options": [
+        "25",
+        "30",
+        "23",
+        "27"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 9?",
+      "correctAnswer": "81",
+      "options": [
+        "79",
+        "83",
+        "86",
+        "81"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 5?",
+      "correctAnswer": "25",
+      "options": [
+        "25",
+        "30",
+        "23",
+        "27"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 9?",
+      "correctAnswer": "81",
+      "options": [
+        "86",
+        "83",
+        "81",
+        "79"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 1?",
+      "correctAnswer": "1",
+      "options": [
+        "3",
+        "-1",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 5?",
+      "correctAnswer": "25",
+      "options": [
+        "30",
+        "23",
+        "25",
+        "27"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 2?",
+      "correctAnswer": "4",
+      "options": [
+        "4",
+        "9",
+        "2",
+        "6"
+      ]
+    }
+]

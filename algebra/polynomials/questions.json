@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Evaluate the expression <br> of 2x + 9 when x = 7",
+    "correctAnswer": "23",
+    "options": [
+      "21",
+      "24",
+      "23",
+      "18"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 2x + 4 when x = 4",
+    "correctAnswer": "12",
+    "options": [
+      "12",
+      "14",
+      "9",
+      "16"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 5x + 3 when x = 2",
+    "correctAnswer": "13",
+    "options": [
+      "9",
+      "13",
+      "12",
+      "11"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 4x + 1 when x = 7",
+    "correctAnswer": "29",
+    "options": [
+      "31",
+      "32",
+      "25",
+      "29"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 1x + 3 when x = 1",
+    "correctAnswer": "4",
+    "options": [
+      "4",
+      "7",
+      "8",
+      "0"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 4x + 4 when x = 8",
+    "correctAnswer": "36",
+    "options": [
+      "36",
+      "37",
+      "34",
+      "33"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 3x + 3 when x = 5",
+    "correctAnswer": "18",
+    "options": [
+      "20",
+      "14",
+      "15",
+      "18"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 5x + 5 when x = 3",
+    "correctAnswer": "20",
+    "options": [
+      "23",
+      "20",
+      "21",
+      "16"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 2x + 2 when x = 10",
+    "correctAnswer": "22",
+    "options": [
+      "25",
+      "21",
+      "27",
+      "22"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 4x + 7 when x = 9",
+    "correctAnswer": "43",
+    "options": [
+      "39",
+      "42",
+      "41",
+      "43"
+    ]
+  }
+]

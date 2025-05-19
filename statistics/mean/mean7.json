@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the mean of these numbers:<br> [61, 62, 63, 64, 65, 66, 67, 68]?",
+      "correctAnswer": "64",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "66"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [62, 63, 64, 65, 66, 67, 68, 69]?",
+      "correctAnswer": "65",
+      "options": [
+        "64",
+        "65",
+        "66",
+        "67"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [63, 64, 65, 66, 67, 68, 69, 70]?",
+      "correctAnswer": "66",
+      "options": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [64, 65, 66, 67, 68, 69, 70, 71]?",
+      "correctAnswer": "67",
+      "options": [
+        "66",
+        "67",
+        "68",
+        "69"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [65, 66, 67, 68, 69, 70, 71, 72]?",
+      "correctAnswer": "68",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "70"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [66, 67, 68, 69, 70, 71, 72, 73]?",
+      "correctAnswer": "69",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [67, 68, 69, 70, 71, 72, 73, 74]?",
+      "correctAnswer": "70",
+      "options": [
+        "69",
+        "70",
+        "71",
+        "72"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [68, 69, 70, 71, 72, 73, 74, 75]?",
+      "correctAnswer": "71",
+      "options": [
+        "70",
+        "71",
+        "72",
+        "73"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [69, 70, 71, 72, 73, 74, 75, 76]?",
+      "correctAnswer": "72",
+      "options": [
+        "71",
+        "72",
+        "73",
+        "74"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [70, 71, 72, 73, 74, 75, 76, 77]?",
+      "correctAnswer": "73",
+      "options": [
+        "72",
+        "73",
+        "74",
+        "75"
+      ]
+    }
+]

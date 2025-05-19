@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the mean of these numbers:<br> [21, 22, 23, 24, 25, 26]?",
+      "correctAnswer": "23",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [22, 23, 24, 25, 26, 27]?",
+      "correctAnswer": "24",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [23, 24, 25, 26, 27, 28]?",
+      "correctAnswer": "25",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [24, 25, 26, 27, 28, 29]?",
+      "correctAnswer": "26",
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [25, 26, 27, 28, 29, 30]?",
+      "correctAnswer": "27",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [26, 27, 28, 29, 30, 31]?",
+      "correctAnswer": "28",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [27, 28, 29, 30, 31, 32]?",
+      "correctAnswer": "29",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [28, 29, 30, 31, 32, 33]?",
+      "correctAnswer": "30",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [29, 30, 31, 32, 33, 34]?",
+      "correctAnswer": "31",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [30, 31, 32, 33, 34, 35]?",
+      "correctAnswer": "32",
+      "options": [
+        "31",
+        "32",
+        "33",
+        "34"
+      ]
+    }
+]

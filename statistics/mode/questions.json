@@ -1,0 +1,99 @@
+[
+  {
+    "question": "What is the mode <br> of 18, 4, 4, 18, 4, 19, 4, 19?",
+    "correctAnswer": "4",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "18"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 19, 12, 18, 19, 18, 19, 19, 12?",
+    "correctAnswer": "19",
+    "options": [
+      "19",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 12, 12, 10, 10, 12, 12, 2, 2?",
+    "correctAnswer": "12",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 17, 2, 2, 2, 12, 12, 17, 2?",
+    "correctAnswer": "2",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 11, 16, 18, 18, 18, 11, 16, 18?",
+    "correctAnswer": "18",
+    "options": [
+      "11",
+      "18",
+      "19",
+      "20"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 3, 9, 3, 9, 2, 2, 9, 9?",
+    "correctAnswer": "9",
+    "options": [
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 3, 3, 13, 3, 1, 1, 13, 3?",
+    "correctAnswer": "3",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "13"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 8, 8, 2, 8, 2, 8, 6, 6?",
+    "correctAnswer": "8",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 9, 15, 5, 9, 5, 5, 5, 15?",
+    "correctAnswer": "5",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "15"
+    ]
+  },
+  {
+    "question": "What is the mode <br> of 17, 7, 10, 10, 17, 7, 7, 7?",
+    "correctAnswer": "7",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "17"
+    ]
+  }
+]

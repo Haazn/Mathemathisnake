@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (3 + 6 \u00d7 9) \u00f7 4?",
+      "correctAnswer": "14",
+      "options": [
+        "16",
+        "14",
+        "15",
+        "13"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 8 \u00d7 9) \u00f7 2?",
+      "correctAnswer": "39",
+      "options": [
+        "41",
+        "39",
+        "38",
+        "40"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 8 \u00d7 4) \u00f7 3?",
+      "correctAnswer": "12",
+      "options": [
+        "14",
+        "12",
+        "11",
+        "13"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 3 \u00d7 6) \u00f7 3?",
+      "correctAnswer": "8",
+      "options": [
+        "10",
+        "7",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 6 \u00d7 2) \u00f7 3?",
+      "correctAnswer": "6",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 5 \u00d7 5) \u00f7 3?",
+      "correctAnswer": "9",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 2 \u00d7 9) \u00f7 3?",
+      "correctAnswer": "7",
+      "options": [
+        "8",
+        "9",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (8 + 10 \u00d7 7) \u00f7 2?",
+      "correctAnswer": "39",
+      "options": [
+        "41",
+        "39",
+        "40",
+        "38"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 4 \u00d7 7) \u00f7 1?",
+      "correctAnswer": "38",
+      "options": [
+        "38",
+        "37",
+        "40",
+        "39"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 6 \u00d7 1) \u00f7 2?",
+      "correctAnswer": "4",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "5"
+      ]
+    }
+]

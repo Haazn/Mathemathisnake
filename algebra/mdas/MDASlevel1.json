@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of 11 + 6 \u00d7 10?",
+      "correctAnswer": "71",
+      "options": [
+        "76",
+        "71",
+        "73",
+        "69"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 19 + 1 \u00d7 10?",
+      "correctAnswer": "29",
+      "options": [
+        "27",
+        "29",
+        "31",
+        "34"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 1 + 2 \u00d7 4?",
+      "correctAnswer": "9",
+      "options": [
+        "11",
+        "9",
+        "14",
+        "7"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 14 + 9 \u00d7 5?",
+      "correctAnswer": "59",
+      "options": [
+        "57",
+        "59",
+        "61",
+        "64"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 5 + 5 \u00d7 2?",
+      "correctAnswer": "15",
+      "options": [
+        "20",
+        "13",
+        "17",
+        "15"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 7 + 2 \u00d7 1?",
+      "correctAnswer": "9",
+      "options": [
+        "7",
+        "14",
+        "11",
+        "9"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 12 + 5 \u00d7 3?",
+      "correctAnswer": "27",
+      "options": [
+        "27",
+        "32",
+        "25",
+        "29"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 15 + 2 \u00d7 2?",
+      "correctAnswer": "19",
+      "options": [
+        "24",
+        "19",
+        "21",
+        "17"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 11 + 1 \u00d7 1?",
+      "correctAnswer": "12",
+      "options": [
+        "17",
+        "10",
+        "14",
+        "12"
+      ]
+    },
+    {
+      "question": "What is the result <br> of 1 + 5 \u00d7 9?",
+      "correctAnswer": "46",
+      "options": [
+        "51",
+        "44",
+        "48",
+        "46"
+      ]
+    }
+]

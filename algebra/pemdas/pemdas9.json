@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (3 + 8 \u00d7 5) \u00f7 1?",
+      "correctAnswer": "43",
+      "options": [
+        "45",
+        "43",
+        "44",
+        "42"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 6 \u00d7 8) \u00f7 1?",
+      "correctAnswer": "58",
+      "options": [
+        "57",
+        "59",
+        "58",
+        "60"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 1 \u00d7 9) \u00f7 2?",
+      "correctAnswer": "7",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 6 \u00d7 10) \u00f7 4?",
+      "correctAnswer": "16",
+      "options": [
+        "18",
+        "17",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 1 \u00d7 5) \u00f7 3?",
+      "correctAnswer": "3",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 1 \u00d7 7) \u00f7 3?",
+      "correctAnswer": "3",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (1 + 4 \u00d7 1) \u00f7 5?",
+      "correctAnswer": "1",
+      "options": [
+        "2",
+        "3",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 9 \u00d7 10) \u00f7 2?",
+      "correctAnswer": "46",
+      "options": [
+        "46",
+        "47",
+        "45",
+        "48"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (1 + 10 \u00d7 9) \u00f7 1?",
+      "correctAnswer": "91",
+      "options": [
+        "91",
+        "92",
+        "90",
+        "93"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 5 \u00d7 8) \u00f7 1?",
+      "correctAnswer": "50",
+      "options": [
+        "51",
+        "52",
+        "49",
+        "50"
+      ]
+    }
+]

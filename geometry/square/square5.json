@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a square with<br> side length 43?",
+      "correctAnswer": "1849",
+      "options": [
+        "1851",
+        "1849",
+        "1854",
+        "1847"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 34?",
+      "correctAnswer": "1156",
+      "options": [
+        "1161",
+        "1158",
+        "1154",
+        "1156"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 23?",
+      "correctAnswer": "529",
+      "options": [
+        "534",
+        "527",
+        "529",
+        "531"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 16?",
+      "correctAnswer": "256",
+      "options": [
+        "256",
+        "254",
+        "258",
+        "261"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 11?",
+      "correctAnswer": "121",
+      "options": [
+        "119",
+        "121",
+        "123",
+        "126"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 8?",
+      "correctAnswer": "64",
+      "options": [
+        "62",
+        "64",
+        "69",
+        "66"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 10?",
+      "correctAnswer": "100",
+      "options": [
+        "100",
+        "102",
+        "98",
+        "105"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 21?",
+      "correctAnswer": "441",
+      "options": [
+        "441",
+        "439",
+        "446",
+        "443"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 16?",
+      "correctAnswer": "256",
+      "options": [
+        "256",
+        "258",
+        "254",
+        "261"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 40?",
+      "correctAnswer": "1600",
+      "options": [
+        "1605",
+        "1598",
+        "1602",
+        "1600"
+      ]
+    }
+]

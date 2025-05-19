@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the result <br> of (2 + 7) \u00d7 4?",
+    "correctAnswer": "36",
+    "options": [
+      "32",
+      "36",
+      "31",
+      "41"
+    ]
+  },
+  {
+    "question": "What is the result <br> of (4 + 1) \u00d7 3?",
+    "correctAnswer": "15",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "12"
+    ]
+  },
+  {
+    "question": "What is the result <br> of (8 + 7) \u00d7 1?",
+    "correctAnswer": "15",
+    "options": [
+      "15",
+      "19",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "question": "What is the result <br> of 15 + 6 \u00f7 6?",
+    "correctAnswer": "16",
+    "options": [
+      "17",
+      "16",
+      "19",
+      "13"
+    ]
+  },
+  {
+    "question": "What is the result <br> of 17 + 8 \u00f7 2?",
+    "correctAnswer": "21",
+    "options": [
+      "19",
+      "24",
+      "21",
+      "23"
+    ]
+  },
+  {
+    "question": "What is the result <br> of 2 + 4 \u00f7 2?",
+    "correctAnswer": "4",
+    "options": [
+      "4",
+      "2",
+      "7",
+      "6"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 2x + 9 when x = 7",
+    "correctAnswer": "23",
+    "options": [
+      "21",
+      "24",
+      "23",
+      "18"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 2x + 4 when x = 4",
+    "correctAnswer": "12",
+    "options": [
+      "12",
+      "14",
+      "9",
+      "16"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 5x + 3 when x = 2",
+    "correctAnswer": "13",
+    "options": [
+      "9",
+      "13",
+      "12",
+      "11"
+    ]
+  },
+  {
+    "question": "Evaluate the expression <br> of 4x + 1 when x = 7",
+    "correctAnswer": "29",
+    "options": [
+      "31",
+      "32",
+      "25",
+      "29"
+    ]
+  }
+]

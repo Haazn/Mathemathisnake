@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Square Adventure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="adventure.css">
+</head>
+
+<body>
+     <div class="border border1">
+        <img src="borders/leftb.png" alt="Border decoration bottom left" style="position: absolute; top: -18.5%;">
+    </div>
+    <div class="border border2">
+        <img src="borders/leftt.png" alt="Border decoration top left">
+    </div>
+    <div class="border border3">
+        <img src="borders/rightt.png" alt="Border decoration top right">
+    </div>
+    <div class="border border4">
+        <img src="borders/rightb.png" alt="Border decoration bottom right" style="position: absolute; top: -18.5%;">
+    </div>
+
+    <div class="heart-container" id="heart-container">
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+    </div>
+
+<div class="boardquestion">
+    <img src="images/boardquestion.png" alt="Question Board">
+    <p class="question-text">Your question text will appear here.</p>
+</div>
+
+    <div class="questionboard">
+    <img src="images/boardquestion.png" alt="Question Board Background Graphic">
+    </div>
+
+    <div class="choice-container">
+        <button class="choice choice1">
+            <img src="images/woodencanvas.png" alt="Choice 1 option background">
+            <span class="choice-text">Choice 1</span>
+        </button>
+        <button class="choice choice2">
+            <img src="images/woodencanvas.png" alt="Choice 2 option background">
+            <span class="choice-text">Choice 2</span>
+        </button>
+        <button class="choice choice3">
+            <img src="images/woodencanvas.png" alt="Choice 3 option background">
+            <span class="choice-text">Choice 3</span>
+        </button>
+        <button class="choice choice4">
+            <img src="images/woodencanvas.png" alt="Choice 4 option background">
+            <span class="choice-text">Choice 4</span>
+        </button>
+    </div>
+
+    <div class="timer">
+        <img src="images/board.png" alt="Timer display board">
+        <p class="timer-text">00 : 00</p>
+    </div>
+
+    <div class="score">
+        <img src="images/board.png" alt="Score display board">
+        <p class="score-text">Adventure: 1</p>
+    </div>
+
+    <div class="back">
+        <img src="images/onesign.png" alt="Back button sign">
+        <div class="back-text"><button id="back-button" onclick="back()">↤Back</button></div>
+    </div>
+
+   <a id="game-container" >
+      <canvas id="canvas" width="750" height="750" style="position: absolute; bottom: 5%;"></canvas>
+      <div id="level-display" class="score-text">Adventure: 1</div>
+      <div id="game-over-screen">
+        <p id="final-score"></p>
+        <button id="restart-btn">Try Again.</button>
+      </div>
+      <div id="countdown-screen"></div>
+    </a>
+
+    <div id="adventure-complete-screen" style="display: none;">
+      <p id="adventure-complete-message">Adventure Complete!</p>
+      <button id="back-to-hub-btn">Back to Topics</button>
+    </div>
+
+    <div id="touch-controls">
+      <div class="touch-btn touch-up">↑</div>
+      <div class="touch-btn touch-down">↓</div>
+      <div class="touch-btn touch-left">←</div>
+      <div class="touch-btn touch-right">→</div>
+    </div>
+
+    <div id="ambient-particles" style="position: absolute; pointer-events: none; z-index: 1;"></div>
+
+    <audio id="bg-music" preload="auto" src="sounds/jungle-music.mp3"></audio>
+    <audio id="eating-sound" preload="auto" src="sounds/eating.mp3"></audio>
+    <audio id="click-sound" preload="auto" src="sounds/click.mp3"></audio>
+
+<script src="adventure.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the mode of these numbers:<br> [33, 33, 33, 33, 31, 36, 32, 35, 34]?",
+      "correctAnswer": "33",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [37, 37, 33, 37, 32, 37, 35, 34, 36, 37]?",
+      "correctAnswer": "37",
+      "options": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [37, 38, 34, 34, 35, 36, 33, 34]?",
+      "correctAnswer": "34",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [38, 37, 39, 36, 35, 39, 39, 39, 34]?",
+      "correctAnswer": "39",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [38, 35, 36, 40, 37, 40, 40, 40, 40, 39]?",
+      "correctAnswer": "40",
+      "options": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [39, 38, 40, 40, 37, 41, 36, 40]?",
+      "correctAnswer": "40",
+      "options": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [40, 38, 38, 38, 38, 42, 37, 39, 41]?",
+      "correctAnswer": "38",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [40, 40, 41, 39, 43, 42, 38, 40, 40, 40]?",
+      "correctAnswer": "40",
+      "options": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [44, 43, 44, 39, 44, 42, 41, 40]?",
+      "correctAnswer": "44",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [43, 43, 46, 42, 40, 44, 43, 41, 43, 45]?",
+      "correctAnswer": "43",
+      "options": [
+        "42",
+        "43",
+        "44",
+        "45"
+      ]
+    }
+]

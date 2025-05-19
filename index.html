@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Login</title>
+
+  <style>
+    * { user-select: none; }
+
+    body {
+      background-image: url('image1.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container {
+      background: rgba(34, 49, 63, 0.9);
+      padding: 3vh;
+      width: 40vw;
+      max-width: 41.67vw; /* 800px */
+      border-radius: 1.04vw; /* 20px */
+      text-align: center;
+      color: #ecf0f1;
+      box-shadow: 0vw 0.52vw 1.3vw rgba(0, 0, 0, 0.6); /* 0px 10px 25px */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.5s ease;
+    }
+
+    h2 {
+      margin-bottom: 2vh;
+      font-size: 2.2vw;
+    }
+
+    input {
+      width: 90%;
+      padding: 1.5vh;
+      margin: 1vh 0;
+      border: none;
+      border-radius: 0.52vw; /* 10px */
+      outline: none;
+      font-size: 1.5vw;
+    }
+
+    .btn {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 1.5vh;
+      cursor: pointer;
+      border-radius: 0.52vw; /* 10px */
+      font-size: 1.5vw;
+      margin-top: 1.5vh;
+      transition: background 0.3s ease;
+      width: 30%;
+    }
+
+    .btn:hover {
+      background: #2ecc71;
+    }
+
+    .toggle {
+      color: #3498db;
+      cursor: pointer;
+      display: block;
+      margin-top: 1vh;
+    }
+
+    .error-message {
+      color: red;
+      font-weight: bold;
+      display: none;
+      margin-bottom: 1vh;
+    }
+
+    .shake {
+      animation: shake 0.3s ease-in-out 2;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-0.26vw); } /* 5px */
+      50% { transform: translateX(0.26vw); }  /* 5px */
+      75% { transform: translateX(-0.26vw); } /* 5px */
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+
+    @media (max-width: 600px) {
+      .container { width: 90%; padding: 2rem; }
+      h2 { font-size: 1.8rem; }
+      input { font-size: 1rem; }
+      .btn { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container" id="login-container">
+    <h2>Login to Mathemathisnake!</h2>
+    <p id="error-message" class="error-message">Invalid username or password</p>
+    <form>
+      <input type="text" id="login-username" placeholder="Username" required>
+      <input type="password" id="login-password" placeholder="Password" required>
+      <button type="submit" class="btn" id="login-btn">Login</button>
+    </form>
+    <span class="toggle" onclick="showRegister()">No account? Register here</span>
+  </div>
+
+  <div class="container" id="register-container" style="display: none;">
+    <h2>Register for Mathemathisnake!</h2>
+    <form>
+      <input type="text" id="register-username" placeholder="Username" required>
+      <input type="password" id="register-password" placeholder="Password" required>
+      <button type="submit" class="btn" id="register-btn">Register</button>
+    </form>
+    <span class="toggle" onclick="showLogin()">Already have an account? Login here</span>
+  </div>
+
+  <script>
+    function showRegister() {
+      document.getElementById("login-container").style.display = "none";
+      document.getElementById("register-container").style.display = "block";
+    }
+
+    function showLogin() {
+      document.getElementById("login-container").style.display = "block";
+      document.getElementById("register-container").style.display = "none";
+    }
+
+    document.getElementById("register-btn").addEventListener("click", function(event) {
+      event.preventDefault();
+      let username = document.getElementById("register-username").value;
+      let password = document.getElementById("register-password").value;
+
+      if (localStorage.getItem(username)) {
+        alert("Username already taken!");
+        document.getElementById("register-username").classList.add("shake");
+        setTimeout(() => {
+          document.getElementById("register-username").classList.remove("shake");
+        }, 600);
+      } else {
+        localStorage.setItem(username, password);
+        alert("Registration successful! You can now log in.");
+        showLogin();
+      }
+    });
+
+    document.getElementById("login-btn").addEventListener("click", function(event) {
+      event.preventDefault();
+      let username = document.getElementById("login-username").value;
+      let password = document.getElementById("login-password").value;
+      let errorMessage = document.getElementById("error-message");
+
+      if (localStorage.getItem(username) === password) {
+        localStorage.setItem("currentUser", username);
+        document.getElementById("login-container").classList.add("fade-out");
+        setTimeout(() => {
+          window.location.href = "Play.html";
+        }, 500);
+      } else {
+        errorMessage.style.display = "block";
+        document.getElementById("login-username").classList.add("shake");
+        document.getElementById("login-password").classList.add("shake");
+        setTimeout(() => {
+          document.getElementById("login-username").classList.remove("shake");
+          document.getElementById("login-password").classList.remove("shake");
+        }, 600);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (4 + 7) \u00d7 (9 - 4)?",
+      "correctAnswer": "55",
+      "options": [
+        "57",
+        "56",
+        "54",
+        "55"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 5) \u00d7 (10 - 4)?",
+      "correctAnswer": "54",
+      "options": [
+        "55",
+        "53",
+        "56",
+        "54"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (3 + 5) \u00d7 (6 - 3)?",
+      "correctAnswer": "24",
+      "options": [
+        "23",
+        "26",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (8 + 7) \u00d7 (6 - 8)?",
+      "correctAnswer": "-30",
+      "options": [
+        "-29",
+        "-30",
+        "-31",
+        "-28"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (3 + 1) \u00d7 (10 - 3)?",
+      "correctAnswer": "28",
+      "options": [
+        "27",
+        "29",
+        "30",
+        "28"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 1) \u00d7 (9 - 7)?",
+      "correctAnswer": "16",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "16"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (8 + 9) \u00d7 (1 - 8)?",
+      "correctAnswer": "-119",
+      "options": [
+        "-118",
+        "-117",
+        "-120",
+        "-119"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 7) \u00d7 (8 - 4)?",
+      "correctAnswer": "44",
+      "options": [
+        "43",
+        "44",
+        "46",
+        "45"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 2) \u00d7 (6 - 2)?",
+      "correctAnswer": "16",
+      "options": [
+        "15",
+        "18",
+        "17",
+        "16"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (8 + 7) \u00d7 (7 - 8)?",
+      "correctAnswer": "-15",
+      "options": [
+        "-16",
+        "-14",
+        "-13",
+        "-15"
+      ]
+    }
+]

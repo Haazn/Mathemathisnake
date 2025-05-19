@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the mean of these numbers:<br> [51, 52, 53, 54, 55, 56, 57]?",
+      "correctAnswer": "54",
+      "options": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [52, 53, 54, 55, 56, 57, 58]?",
+      "correctAnswer": "55",
+      "options": [
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [53, 54, 55, 56, 57, 58, 59]?",
+      "correctAnswer": "56",
+      "options": [
+        "55",
+        "56",
+        "57",
+        "58"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [54, 55, 56, 57, 58, 59, 60]?",
+      "correctAnswer": "57",
+      "options": [
+        "56",
+        "57",
+        "58",
+        "59"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [55, 56, 57, 58, 59, 60, 61]?",
+      "correctAnswer": "58",
+      "options": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [56, 57, 58, 59, 60, 61, 62]?",
+      "correctAnswer": "59",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [57, 58, 59, 60, 61, 62, 63]?",
+      "correctAnswer": "60",
+      "options": [
+        "59",
+        "60",
+        "61",
+        "62"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [58, 59, 60, 61, 62, 63, 64]?",
+      "correctAnswer": "61",
+      "options": [
+        "60",
+        "61",
+        "62",
+        "63"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [59, 60, 61, 62, 63, 64, 65]?",
+      "correctAnswer": "62",
+      "options": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [60, 61, 62, 63, 64, 65, 66, 67]?",
+      "correctAnswer": "63",
+      "options": [
+        "62",
+        "63",
+        "64",
+        "65"
+      ]
+    }
+]

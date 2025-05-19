@@ -1,0 +1,102 @@
+[
+{
+      "question": "What is the area <br> of a square with side 12?",
+      "correctAnswer": "144",
+      "options": [
+        "146",
+        "144",
+        "136",
+        "142"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 10?",
+      "correctAnswer": "100",
+      "options": [
+        "110",
+        "100",
+        "103",
+        "107"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 6?",
+      "correctAnswer": "36",
+      "options": [
+        "36",
+        "44",
+        "41",
+        "34"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 2?",
+      "correctAnswer": "4",
+      "options": [
+        "11",
+        "12",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 20?",
+      "correctAnswer": "400",
+      "options": [
+        "398",
+        "400",
+        "392",
+        "401"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 1?",
+      "correctAnswer": "1",
+      "options": [
+        "11",
+        "10",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 18?",
+      "correctAnswer": "324",
+      "options": [
+        "324",
+        "331",
+        "318",
+        "327"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 1?",
+      "correctAnswer": "1",
+      "options": [
+        "9",
+        "6",
+        "5",
+        "1"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 1?",
+      "correctAnswer": "1",
+      "options": [
+        "6",
+        "10",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "question": "What is the area <br> of a square with side 9?",
+      "correctAnswer": "81",
+      "options": [
+        "80",
+        "73",
+        "77",
+        "81"
+      ]
+    }
+]

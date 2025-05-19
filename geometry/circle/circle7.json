@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a circle <br> with radius 53? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "8820.26",
+      "options": [
+        "8823.26",
+        "8818.76",
+        "8820.26",
+        "8821.76"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 57? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "10201.86",
+      "options": [
+        "10200.36",
+        "10201.86",
+        "10203.36",
+        "10204.86"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 18? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "1017.36",
+      "options": [
+        "1017.36",
+        "1020.36",
+        "1018.86",
+        "1015.86"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 28? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "2461.76",
+      "options": [
+        "2460.26",
+        "2464.76",
+        "2461.76",
+        "2463.26"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 24? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "1808.64",
+      "options": [
+        "1811.64",
+        "1808.64",
+        "1807.14",
+        "1810.14"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 28? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "2461.76",
+      "options": [
+        "2460.26",
+        "2464.76",
+        "2461.76",
+        "2463.26"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 26? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "2122.64",
+      "options": [
+        "2125.64",
+        "2124.14",
+        "2122.64",
+        "2121.14"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 26? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "2122.64",
+      "options": [
+        "2124.14",
+        "2121.14",
+        "2122.64",
+        "2125.64"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 29? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "2640.74",
+      "options": [
+        "2642.24",
+        "2640.74",
+        "2639.24",
+        "2643.74"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 39? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "4775.94",
+      "options": [
+        "4777.44",
+        "4778.94",
+        "4775.94",
+        "4774.44"
+      ]
+    }
+]

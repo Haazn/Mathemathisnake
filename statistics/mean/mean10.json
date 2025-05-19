@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the mean of these numbers:<br> [91, 92, 93, 94, 95, 96, 97, 98, 99]?",
+      "correctAnswer": "95",
+      "options": [
+        "94",
+        "95",
+        "96",
+        "97"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [92, 93, 94, 95, 96, 97, 98, 99, 100]?",
+      "correctAnswer": "96",
+      "options": [
+        "95",
+        "96",
+        "97",
+        "98"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [93, 94, 95, 96, 97, 98, 99, 100, 101]?",
+      "correctAnswer": "97",
+      "options": [
+        "96",
+        "97",
+        "98",
+        "99"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [94, 95, 96, 97, 98, 99, 100, 101, 102]?",
+      "correctAnswer": "98",
+      "options": [
+        "97",
+        "98",
+        "99",
+        "100"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [95, 96, 97, 98, 99, 100, 101, 102, 103]?",
+      "correctAnswer": "99",
+      "options": [
+        "98",
+        "99",
+        "100",
+        "101"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [96, 97, 98, 99, 100, 101, 102, 103, 104]?",
+      "correctAnswer": "100",
+      "options": [
+        "99",
+        "100",
+        "101",
+        "102"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [97, 98, 99, 100, 101, 102, 103, 104, 105]?",
+      "correctAnswer": "101",
+      "options": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [98, 99, 100, 101, 102, 103, 104, 105, 106]?",
+      "correctAnswer": "102",
+      "options": [
+        "101",
+        "102",
+        "103",
+        "104"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [99, 100, 101, 102, 103, 104, 105, 106, 107]?",
+      "correctAnswer": "103",
+      "options": [
+        "102",
+        "103",
+        "104",
+        "105"
+      ]
+    },
+    {
+      "question": "What is the mean of these numbers:<br> [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]?",
+      "correctAnswer": "104",
+      "options": [
+        "103",
+        "104",
+        "105",
+        "106"
+      ]
+    }
+]

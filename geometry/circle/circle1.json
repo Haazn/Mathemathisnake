@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the  2?<br> (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "12.56",
+      "options": [
+        "14.06",
+        "15.56",
+        "12.56",
+        "11.06"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 7? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "153.86",
+      "options": [
+        "152.36",
+        "156.86",
+        "155.36",
+        "153.86"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 10? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "314.0",
+      "options": [
+        "317.0",
+        "314.0",
+        "312.5",
+        "315.5"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 3? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "28.26",
+      "options": [
+        "28.26",
+        "31.26",
+        "26.76",
+        "29.76"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 10? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "314.0",
+      "options": [
+        "317.0",
+        "315.5",
+        "312.5",
+        "314.0"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 10? (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "314.0",
+      "options": [
+        "312.5",
+        "315.5",
+        "317.0",
+        "314.0"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 6?<br> (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "113.04",
+      "options": [
+        "114.54",
+        "111.54",
+        "116.04",
+        "113.04"
+      ]
+    },
+    {
+      "question": "What is the area of a circle <br> with radius 1?<br> (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "3.14",
+      "options": [
+        "6.14",
+        "3.14",
+        "4.64",
+        "1.64"
+      ]
+    },
+    {
+      "question": "What is the area of a circle with radius 7?<br> (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "153.86",
+      "options": [
+        "152.36",
+        "156.86",
+        "153.86",
+        "155.36"
+      ]
+    },
+    {
+      "question": "What is the area of a circle with radius 7?<br> (Use \u03c0 \u2248 3.14)",
+      "correctAnswer": "153.86",
+      "options": [
+        "153.86",
+        "155.36",
+        "156.86",
+        "152.36"
+      ]
+    }
+]

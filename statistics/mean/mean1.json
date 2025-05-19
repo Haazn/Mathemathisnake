@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the mean of these <br> numbers: [1, 2, 3, 4, 5]?",
+      "correctAnswer": "3",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [2, 3, 4, 5, 6]?",
+      "correctAnswer": "4",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [3, 4, 5, 6, 7]?",
+      "correctAnswer": "5",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [4, 5, 6, 7, 8]?",
+      "correctAnswer": "6",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [5, 6, 7, 8, 9]?",
+      "correctAnswer": "7",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [6, 7, 8, 9, 10]?",
+      "correctAnswer": "8",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers:> [7, 8, 9, 10, 11]?",
+      "correctAnswer": "9",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [8, 9, 10, 11, 12]?",
+      "correctAnswer": "10",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [9, 10, 11, 12, 13]?",
+      "correctAnswer": "11",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "question": "What is the mean of these <br> numbers: [10, 11, 12, 13, 14]?",
+      "correctAnswer": "12",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+]

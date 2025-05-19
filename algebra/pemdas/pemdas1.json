@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (5 + 4) \u00d7 1?",
+      "correctAnswer": "9",
+      "options": [
+        "11",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 2) \u00d7 1?",
+      "correctAnswer": "6",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (1 + 2) \u00d7 5?",
+      "correctAnswer": "15",
+      "options": [
+        "17",
+        "16",
+        "15",
+        "14"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (3 + 2) \u00d7 3?",
+      "correctAnswer": "15",
+      "options": [
+        "14",
+        "17",
+        "16",
+        "15"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 1) \u00d7 1?",
+      "correctAnswer": "5",
+      "options": [
+        "4",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 5) \u00d7 1?",
+      "correctAnswer": "9",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 3) \u00d7 3?",
+      "correctAnswer": "15",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "17"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (1 + 5) \u00d7 2?",
+      "correctAnswer": "12",
+      "options": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (1 + 1) \u00d7 3?",
+      "correctAnswer": "6",
+      "options": [
+        "7",
+        "8",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 1) \u00d7 4?",
+      "correctAnswer": "20",
+      "options": [
+        "21",
+        "20",
+        "19",
+        "22"
+      ]
+    }
+]

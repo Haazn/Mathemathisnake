@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a square with<br> side length 54?",
+      "correctAnswer": "2916",
+      "options": [
+        "2916",
+        "2921",
+        "2918",
+        "2914"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 60?",
+      "correctAnswer": "3600",
+      "options": [
+        "3605",
+        "3602",
+        "3598",
+        "3600"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 34?",
+      "correctAnswer": "1156",
+      "options": [
+        "1156",
+        "1161",
+        "1154",
+        "1158"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 59?",
+      "correctAnswer": "3481",
+      "options": [
+        "3481",
+        "3486",
+        "3483",
+        "3479"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 30?",
+      "correctAnswer": "900",
+      "options": [
+        "900",
+        "902",
+        "898",
+        "905"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 16?",
+      "correctAnswer": "256",
+      "options": [
+        "261",
+        "256",
+        "254",
+        "258"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 27?",
+      "correctAnswer": "729",
+      "options": [
+        "731",
+        "727",
+        "729",
+        "734"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 21?",
+      "correctAnswer": "441",
+      "options": [
+        "446",
+        "443",
+        "439",
+        "441"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 63?",
+      "correctAnswer": "3969",
+      "options": [
+        "3974",
+        "3971",
+        "3967",
+        "3969"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 21?",
+      "correctAnswer": "441",
+      "options": [
+        "443",
+        "439",
+        "441",
+        "446"
+      ]
+    }
+]

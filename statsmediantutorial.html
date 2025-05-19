@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bg-music-player.js"></script>
+    <title>Median Tutorial</title>
+    <style>
+
+        * {
+            user-select: none;
+        }
+
+        body {
+            background-image: url('junglebackground.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .snake {
+            max-width: 100%;
+            position: absolute;
+            top: 55%;
+            left: 4%;
+        }
+
+        .snake img {
+            width: 25vw;
+            height: 25vw;
+        }
+
+        .board img {
+            width: 100%;
+            height: 162%;
+            position: absolute;
+            left: 10%;
+            top: -40%;
+            display: none;
+        }
+
+        .choice1 {
+            position: absolute;
+            bottom: -15%;
+            left: 65%;
+        }
+
+        .choice2 {
+            position: absolute;
+            bottom: -15%;
+            right: 40%;
+            display: none;
+        }
+
+        .mean {
+            position: absolute;
+            left: 34%;
+            top: 6%;
+            text-align: center;
+            font-size: 3.125vw;
+            z-index: 2;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 
+                -0.1042vw -0.1042vw 0 black,  
+                 0.1042vw -0.1042vw 0 black,
+                -0.1042vw  0.1042vw 0 black,
+                 0.1042vw  0.1042vw 0 black;
+            display: none;
+            opacity: 0;
+        }
+
+        .example {
+            position: absolute;
+            left: 35%;
+            top: 30%;
+            text-align: center;
+            font-size: 3.125vw;
+            z-index: 10;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 
+                -0.1042vw -0.1042vw 0 black,  
+                 0.1042vw -0.1042vw 0 black,
+                -0.1042vw  0.1042vw 0 black,
+                 0.1042vw  0.1042vw 0 black;
+            display: none;
+        }
+
+        .bubble {
+            position: absolute;
+            height: 50%;
+            width: 60%;
+            left: 1%;
+            top: 20%;
+            z-index: 3;
+        }
+
+        .greetings {
+            position: absolute; 
+            top: 22%; 
+            left: 5%;
+            width: 50%; 
+            color: black;
+            font-size: 2.6042vw;
+            font-family: 'Playfair Display', serif;
+            z-index: 4; 
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        .preparation {
+            position: absolute; 
+            top: 28%; 
+            left: 5%;
+            width: 50%; 
+            color: black;
+            font-size: 2.8646vw;
+            font-family: 'Playfair Display', serif;
+            z-index: 20; 
+            text-align: center;
+            animation: fadeIn 2s forwards;
+            display: none;
+        }
+
+        .bubble-container {
+            position: relative; 
+            width: 100%;
+            height: 100vh; 
+        }
+
+        .solution {
+            position: absolute;
+            left: 37%;
+            top: -2.5%;
+            text-align: center;
+            font-size: 3.125vw;
+            z-index: 2;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 
+                -0.1042vw -0.1042vw 0 black,  
+                 0.1042vw -0.1042vw 0 black,
+                -0.1042vw  0.1042vw 0 black,
+                 0.1042vw  0.1042vw 0 black;
+            display: none;
+        }
+
+        .solution2 {
+            position: absolute;
+            left: 35%;
+            top: 45.8%;
+            text-align: center;
+            font-size: 3.125vw;
+            z-index: 2;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 
+                -0.1042vw -0.1042vw 0 black,  
+                 0.1042vw -0.1042vw 0 black,
+                -0.1042vw  0.1042vw 0 black,
+                 0.1042vw  0.1042vw 0 black;
+            display: none;
+        }
+
+        .choice1 button {
+            position: absolute;
+            top: 35%;
+            left: 17%;
+            z-index: 10; 
+            background-color: transparent;
+            border: none;
+            font-size: 4vw;
+            cursor: pointer;
+            font-family: 'Playfair Display', serif;
+        }
+
+        button:hover {
+            color: orange;
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body onload="startAnimations()">
+    <div class="bubble-container">
+        <img src="bubble.png" class="bubble">
+        <p class="greetings">Great Job! You have completed your journey learning what is Mean and solving Mean</p>
+    </div>
+    
+    <div class="snake">
+        <img src="snake.png">
+    </div>
+
+    <div class="board">
+        <p class="mean">What is Median in statistics?<br> Median is the middle score in statistics.</p>
+        <img src="board.png">
+    </div>
+
+    <div class="example">
+        <p>Example:<br>Sir Jeff recorded his income for 5 days, <br> his income was 600, 700, 500, 1000, <br>and 700. What is the median score <br>of his income for the 5 days?</p>
+    </div>
+
+    <div class="solution">
+        <p>Solution:<br>
+            The recorded income was<br>
+            600, 600, 500, 1000, and 700.<br>
+            All you have to do is rearrange the<br>
+            income from lowest to highest.
+        </p>
+    </div>
+
+    <div class="solution2">
+        <p>Therefore, we will arrange them,<br>
+            we have 500, 600, 600, 700, and 1000.<br>
+            that means <span style="color:red">600 </span>was the Median score.
+        </p>
+    </div>
+
+    <div class="preparation">
+        <p>Are you ready to take another journey of your learning?</p>
+    </div>
+
+    <div class="choice1"
+    style = "position: absolute;
+             right: 0%;"
+            >
+        <button onclick="handleNext()" class="next">Next ➤</button>
+        <img src="woodencanvas.png" style="width: 26vw; height: auto;">
+        </div>
+
+    <div class="choice2">
+        <img src="woodencanvas.png">
+    </div>
+
+    <script>
+        let skipAnimations = false;
+        let typingTimeout = null;
+        let currentStep = 1; 
+
+        function startAnimations() {
+            const greetings = document.querySelector(".greetings");
+            greetings.style.animation = "fadeIn 2s forwards";
+        }
+
+        function typeText(element, text, speed = 50) {
+            if (skipAnimations) {
+                element.textContent = text;
+                return;
+            }
+
+            if (typingTimeout) {
+                clearTimeout(typingTimeout);
+            }
+
+            let i = 0;
+            element.textContent = ""; 
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    typingTimeout = setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        function skipAllAnimations() {
+            skipAnimations = true;
+
+            if (typingTimeout) {
+                clearTimeout(typingTimeout);
+            }
+
+            const greetings = document.querySelector(".greetings");
+            const bubble = document.querySelector(".bubble");
+            const mean = document.querySelector(".mean");
+            const boardImg = document.querySelector(".board img");
+            const example = document.querySelector(".example");
+            const solution = document.querySelector(".solution");
+            const solution2 = document.querySelector(".solution2");
+            const preparation = document.querySelector(".preparation");
+
+            greetings.textContent = "Now, let's proceed with what is Median. Median is the middle scores in statistics.";
+            greetings.style.top = "20%";
+            greetings.style.opacity = "1";
+            greetings.style.display = "block";
+
+            bubble.style.display = "none";
+
+            mean.style.display = "flex";
+            mean.style.opacity = "1";
+
+            boardImg.style.display = "flex";
+
+            example.style.display = "flex";
+            example.style.opacity = "1";
+
+            solution.style.display = "flex";
+            solution.style.opacity = "1";
+
+            solution2.style.display = "flex";
+            solution2.style.opacity = "1";
+
+            preparation.textContent = "Are you ready to take the journey of learning statistics?";
+            preparation.style.display = "flex";
+            preparation.style.opacity = "1";
+
+            document.querySelector(".next").setAttribute("onclick", "next10()");
+        }
+
+        function handleNext() {
+            if (skipAnimations) {
+                skipAllAnimations();
+                return;
+            }
+
+            switch (currentStep) {
+                case 1:
+                    next1();
+                    break;
+                case 2:
+                    next2();
+                    break;
+                case 3:
+                    next3();
+                    break;
+                case 4:
+                    next4();
+                    break;
+                case 5:
+                    next5();
+                    break;
+                case 6:
+                    next6();
+                    break;
+                case 7:
+                    next7();
+                    break;
+                case 8:
+                    next8();
+                    break;
+                case 9:
+                    next9();
+                    break;
+                case 10:
+                    next10();
+                    break;            
+            }
+            currentStep++;
+        }
+
+        function next1() {
+            const greetings = document.querySelector(".greetings");
+            typeText(greetings, "Now, let's proceed with what is Median. Median is the middle scores in statistics.");
+            greetings.style.top = "25%";
+        }
+
+        function next2() {
+            const greetings = document.querySelector(".greetings");
+            typeText(greetings, "Shall we start again?");
+            greetings.style.fontSize = "100px";
+            greetings.style.top = "20%";
+        }
+
+        function next3() {
+            const bubble = document.querySelector(".bubble");
+            const greetings = document.querySelector(".greetings");
+            const mean = document.querySelector(".mean");
+            const boardImg = document.querySelector(".board img");
+
+            bubble.style.display = "none";
+            greetings.style.display = "none";
+
+            mean.style.display = "flex";
+            mean.style.animation = "fadeIn 2s forwards";
+
+            boardImg.style.display = "flex";
+        }
+
+        function next4() {
+            const example = document.querySelector(".example");
+            example.style.display = "flex";
+            example.style.animation = "fadeIn 2s forwards";
+        }
+
+        function next5() {
+            const example = document.querySelector(".example");
+            const mean = document.querySelector(".mean");
+            mean.style.display = "none";
+            example.style.display = "none";
+        }
+
+        function next6() {
+            const solution = document.querySelector(".solution");
+            solution.style.display = "flex";
+            solution.style.animation = "fadeIn 2s forwards";
+        }
+
+        function next7() {
+            const solution2 = document.querySelector(".solution2");
+            solution2.style.display = "flex";
+            solution2.style.animation = "fadeIn 2s forwards";
+        }
+
+        function next8() {
+            const solution = document.querySelector('.solution');
+            const solution2 = document.querySelector(".solution2");
+            const board = document.querySelector(".board");
+            board.style.display = "none";
+            solution.style.display = "none";
+            solution2.style.display = "none";
+        }
+
+        function next9() {
+            const bubble = document.querySelector(".bubble");
+            bubble.style.display = "flex";
+            const preparation = document.querySelector(".preparation");
+            preparation.style.display = "flex";
+            typeText(preparation, "Are you ready to take another journey of your learning?");
+        }
+
+        function next10() {
+            window.location.href = "statsmedianlevel.html";
+        }
+
+        document.querySelector(".next").addEventListener("click", function() {
+            if (skipAnimations) {
+                skipAllAnimations();
+            }
+        });
+    </script>
+</body>
+</html>

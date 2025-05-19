@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the median of these numbers:<br> [21, 22, 23, 24, 25, 26, 121]?",
+      "correctAnswer": "24",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [22, 23, 24, 25, 26, 27, 122]?",
+      "correctAnswer": "25",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [23, 24, 25, 26, 27, 28, 123]?",
+      "correctAnswer": "26",
+      "options": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [24, 25, 26, 27, 28, 29, 124]?",
+      "correctAnswer": "27",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [25, 26, 27, 28, 29, 30, 125]?",
+      "correctAnswer": "28",
+      "options": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [26, 27, 28, 29, 30, 31, 126]?",
+      "correctAnswer": "29",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [27, 28, 29, 30, 31, 32, 127]?",
+      "correctAnswer": "30",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [28, 29, 30, 31, 32, 33, 128]?",
+      "correctAnswer": "31",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [29, 30, 31, 32, 33, 34, 129]?",
+      "correctAnswer": "32",
+      "options": [
+        "31",
+        "32",
+        "33",
+        "34"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [30, 31, 32, 33, 34, 35, 130]?",
+      "correctAnswer": "33",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ]
+    }
+]

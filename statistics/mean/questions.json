@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is the average <br> of 32, 60, 83, 53?",
+    "correctAnswer": "57",
+    "options": [
+      "56",
+      "57",
+      "58",
+      "59",
+      "7"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 11, 82, 65, 86?",
+    "correctAnswer": "61",
+    "options": [
+      "60",
+      "61",
+      "62",
+      "63"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 26, 8, 74?",
+    "correctAnswer": "36",
+    "options": [
+      "35",
+      "36",
+      "37",
+      "38"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 60, 4?",
+    "correctAnswer": "32",
+    "options": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 37, 2, 77, 40?",
+    "correctAnswer": "39",
+    "options": [
+      "38",
+      "39",
+      "40",
+      "41"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 87, 42, 93?",
+    "correctAnswer": "74",
+    "options": [
+      "73",
+      "74",
+      "75",
+      "76"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 15, 11?",
+    "correctAnswer": "13",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 3, 35?",
+    "correctAnswer": "19",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 27, 5?",
+    "correctAnswer": "16",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ]
+  },
+  {
+    "question": "What is the average <br> of 39, 83, 36, 78?",
+    "correctAnswer": "59",
+    "options": [
+      "58",
+      "59",
+      "60",
+      "61"
+    ]
+  }
+]

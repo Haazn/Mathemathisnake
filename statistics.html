@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            user-select: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('images/junglebackground.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: "Chewy", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .transparent-image {
+            position: absolute;
+            top: 15%;
+            transform: translateY(-50%);
+            width: 30vw;
+        }
+
+        .transparent-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image1 { left: 4vw; }
+        .image2 { left: 34vw; }
+        .image3 { left: 64vw; }
+
+        .snake-image {
+            position: absolute;
+            top: 60%;
+            left: 41%;
+            transform: translateX(-50%);
+        }
+
+        .snake-image img {
+            width: 20.83vw;
+            position: absolute;
+            height: auto;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 76%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25vw;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text-overlay button {
+            font-family: 'Chewy', cursive;
+            font-size: 2.0vw;
+            color: white;
+            background: none;
+            cursor: pointer;
+            outline: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .back button {
+            font-family: 'Chewy', cursive;
+            font-size: 3.0vw;
+            color: white;
+            background: none;
+            cursor: pointer;
+            outline: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .text-overlay button:hover {
+            color: #ffcc00;
+            transform: scale(1.2);
+        }
+
+        .logout {
+            position: absolute;
+            top: 64%;
+            right: 60%;
+            transform: translateX(-50%);
+        }
+
+        .logout img {
+            width: 30%;
+            height: auto;
+        }
+
+        #back {
+            position: absolute;;
+            left: 10%;
+            top: 79%;
+            font-size: 10.0vw;
+            font-size: large;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 0.1vw;
+            display: flex;
+            justify-content: center;
+        }
+
+    
+        #back button:hover {
+            color: #ffcc00;
+            transform: scale(1.2);
+        }
+
+
+
+            .mean, .median, .mode, .back {
+            width: 78%;
+            font-size: 1vw;
+            font-weight: bold;
+            color: white;
+            padding: 1vw 0;
+            border: none;
+            background: transparent;
+            }
+
+    </style>
+
+    <title>Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="transparent-image image1">
+            <img src="images/woodensign.png">
+            <div class="text-overlay">
+                <button onclick="endlessButton()" onmouseover="playHoverSound()" class="mean">&nbsp; Endless Mode &nbsp; </button>
+            </div>
+        </div>
+
+        <div class="transparent-image image2">
+            <img src="images/woodensign.png">
+            <div class="text-overlay">
+                <button onclick="challengeButton()" onmouseover="playHoverSound()" class="median">Challenge Mode</button>
+            </div>
+        </div>
+
+        <div class="transparent-image image3">
+            <img src="images/woodensign.png">
+            <div class="text-overlay">
+                <button onclick="levelsButton()" onmouseover="playHoverSound()" class="mode">Adventure Mode</button>
+            </div>
+        </div>
+
+        <div class="snake-image">
+            <img src="images/snake.png">
+        </div>
+
+        <div class="back">
+            <img src="images/loginsign.png" alt="Wooden Sign" class="logout" style="width: 25vw;">
+            <div class="text-overlay" id="back">
+                <button onclick="back()" onmouseover="playHoverSound()" class="back">&nbsp; &nbsp; ↤Back &nbsp; &nbsp;</button>
+            </div>
+        </div>
+    </div>
+
+
+      
+<script>
+        let persistentBackgroundMusicOnThisPage;
+
+        function initializePersistentMusic() {
+            const musicSrcFromStorage = localStorage.getItem('musicSrc');
+            if (!musicSrcFromStorage) {
+                console.log(`PersistentMusic (${window.location.pathname}): No musicSrc found in localStorage.`);
+                return;
+            }
+
+            persistentBackgroundMusicOnThisPage = new Audio(musicSrcFromStorage);
+
+            const shouldBePlaying = localStorage.getItem('musicShouldBePlaying') === 'true';
+            const lastTime = parseFloat(localStorage.getItem('musicTime')) || 0;
+            const wasMuted = localStorage.getItem('musicMuted') === 'true';
+            const shouldLoop = localStorage.getItem('musicLoop') !== 'false'; // Default true
+
+            console.log(`PersistentMusic (${window.location.pathname}): Initializing with state:`, { musicSrcFromStorage, shouldBePlaying, lastTime, wasMuted, shouldLoop });
+
+            persistentBackgroundMusicOnThisPage.currentTime = lastTime;
+            persistentBackgroundMusicOnThisPage.muted = wasMuted;
+            persistentBackgroundMusicOnThisPage.loop = shouldLoop;
+
+            if (shouldBePlaying && !wasMuted) { 
+                const playPromise = persistentBackgroundMusicOnThisPage.play();
+                if(playPromise !== undefined) {
+                    playPromise.then(() => {
+                        console.log(`PersistentMusic (${window.location.pathname}): Playback started/resumed.`);
+                    }).catch(error => {
+                        console.warn(`PersistentMusic (${window.location.pathname}): Autoplay was PREVENTED. Error:`, error);
+                        // If autoplay is prevented here, the music will be paused.
+                        // The user might need to interact with play.html options again to "unpause" globally.
+                    });
+                }
+            } else {
+                 console.log(`PersistentMusic (${window.location.pathname}): Not playing automatically (shouldBePlaying: ${shouldBePlaying}, wasMuted: ${wasMuted}).`);
+            }
+        }
+
+        function saveMusicStateFromThisPage() {
+            if (persistentBackgroundMusicOnThisPage) {
+                localStorage.setItem('musicSrc', persistentBackgroundMusicOnThisPage.src);
+                localStorage.setItem('musicShouldBePlaying', String(!persistentBackgroundMusicOnThisPage.paused && !persistentBackgroundMusicOnThisPage.ended));
+                localStorage.setItem('musicTime', String(persistentBackgroundMusicOnThisPage.currentTime));
+                localStorage.setItem('musicMuted', String(persistentBackgroundMusicOnThisPage.muted));
+                localStorage.setItem('musicLoop', String(persistentBackgroundMusicOnThisPage.loop));
+                console.log(`PersistentMusic (${window.location.pathname}): Saved state before unload:`, { 
+                    shouldPlay: !persistentBackgroundMusicOnThisPage.paused && !persistentBackgroundMusicOnThisPage.ended, 
+                    muted: persistentBackgroundMusicOnThisPage.muted,
+                    time: persistentBackgroundMusicOnThisPage.currentTime,
+                    loop: persistentBackgroundMusicOnThisPage.loop
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            initializePersistentMusic();
+        });
+
+        window.addEventListener('beforeunload', saveMusicStateFromThisPage);
+
+       
+        const allLinksOnPage = document.querySelectorAll('a');
+        allLinksOnPage.forEach(link => {
+            link.addEventListener('click', function(event) {
+                
+                const href = this.getAttribute('href');
+                if (href && !href.startsWith('http') && !href.startsWith('javascript:')) {
+                    console.log(`PersistentMusic (${window.location.pathname}): Saving state before navigating via <a> tag to ${href}`);
+                    saveMusicStateFromThisPage();
+                }
+            });
+        });
+
+    </script>
+    <script>
+        const hoverSound = new Audio("hover.mp3");
+
+        function playHoverSound() {
+            hoverSound.currentTime = 0;
+            hoverSound.play();
+        }
+
+        function endlessButton() {
+            window.location.href = "3statisctics/endless.html";
+        }
+
+        function challengeButton() {
+            window.location.href = "3statisctics/challenge.html";
+        }
+
+        function levelsButton() {
+            document.querySelector(".mean").innerHTML = "&nbsp;&nbsp;Mean&nbsp;&nbsp;";
+            document.querySelector(".median").innerHTML = "&nbsp;&nbsp;Median&nbsp;&nbsp;";
+            document.querySelector(".mode").innerHTML = "&nbsp;&nbsp;Mode&nbsp;&nbsp;";
+
+            document.querySelector(".mean").setAttribute("onclick", "MeanMode()");
+            document.querySelector(".median").setAttribute("onclick", "MedianMode()");
+            document.querySelector(".mode").setAttribute("onclick", "Mode()");
+
+            document.querySelector("#back button").setAttribute("onclick", "backState()");
+        }
+
+
+        function backState() {
+            document.querySelector(".mode").textContent = "Adventure Mode";
+            document.querySelector(".mean").textContent = "Endless Mode";
+            document.querySelector(".median").textContent = "Challenge Mode";
+
+            document.querySelector(".mean").setAttribute("onclick", "endlessButton()");
+            document.querySelector(".median").setAttribute("onclick", "challengeButton()");
+            document.querySelector(".mode").setAttribute("onclick", "levelsButton()");
+
+            document.querySelector("#back button").setAttribute("onclick", "back()");
+        }
+
+        function MeanMode() {
+            window.location.href = "statsmeantutorial.html"
+        }
+
+        function MedianMode() {
+            window.location.href = "statsmediantutorial.html"
+        }
+
+        function Mode() {
+            window.location.href = "statsmodetutorial.html"
+        }
+
+
+        function back() {
+            window.location.href = "Play.html";
+        }
+
+    </script>
+</body>
+</html>

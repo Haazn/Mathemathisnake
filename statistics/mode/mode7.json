@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the mode of these numbers:<br> [64, 64, 65, 61, 64, 66, 64, 63, 67, 68, 62]?",
+      "correctAnswer": "64",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "66"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [69, 67, 67, 67, 67, 64, 66, 68, 63, 67, 65, 62]?",
+      "correctAnswer": "67",
+      "options": [
+        "66",
+        "67",
+        "68",
+        "69"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [69, 66, 68, 68, 70, 67, 65, 63, 64, 68]?",
+      "correctAnswer": "68",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "70"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [71, 66, 69, 65, 69, 67, 69, 64, 68, 70, 69]?",
+      "correctAnswer": "69",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [68, 71, 69, 65, 72, 70, 70, 66, 67, 70, 70, 70]?",
+      "correctAnswer": "70",
+      "options": [
+        "69",
+        "70",
+        "71",
+        "72"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [70, 69, 67, 72, 68, 73, 68, 66, 68, 71]?",
+      "correctAnswer": "68",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "70"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [73, 70, 67, 74, 71, 69, 69, 72, 69, 69, 68]?",
+      "correctAnswer": "69",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [75, 69, 69, 74, 68, 71, 69, 70, 73, 69, 69, 72]?",
+      "correctAnswer": "69",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [70, 75, 73, 76, 74, 76, 72, 71, 76, 69]?",
+      "correctAnswer": "76",
+      "options": [
+        "75",
+        "76",
+        "77",
+        "78"
+      ]
+    },
+    {
+      "question": "What is the mode of these numbers:<br> [70, 75, 77, 75, 72, 75, 76, 75, 74, 73, 71]?",
+      "correctAnswer": "75",
+      "options": [
+        "74",
+        "75",
+        "76",
+        "77"
+      ]
+    }
+]

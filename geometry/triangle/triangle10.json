@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the area of a triangle with<br> base 78 and height 87?",
+      "correctAnswer": "3393.0",
+      "options": [
+        "3393.0",
+        "3390.5",
+        "3397.0",
+        "3395.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 99 and height 77?",
+      "correctAnswer": "3811.5",
+      "options": [
+        "3815.5",
+        "3814.0",
+        "3811.5",
+        "3809.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 7 and height 63?",
+      "correctAnswer": "220.5",
+      "options": [
+        "224.5",
+        "220.5",
+        "218.0",
+        "223.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 99 and height 30?",
+      "correctAnswer": "1485.0",
+      "options": [
+        "1487.5",
+        "1489.0",
+        "1485.0",
+        "1482.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 100 and height 19?",
+      "correctAnswer": "950.0",
+      "options": [
+        "954.0",
+        "950.0",
+        "947.5",
+        "952.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 18 and height 26?",
+      "correctAnswer": "234.0",
+      "options": [
+        "238.0",
+        "236.5",
+        "231.5",
+        "234.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 84 and height 56?",
+      "correctAnswer": "2352.0",
+      "options": [
+        "2354.5",
+        "2352.0",
+        "2356.0",
+        "2349.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 41 and height 92?",
+      "correctAnswer": "1886.0",
+      "options": [
+        "1890.0",
+        "1888.5",
+        "1883.5",
+        "1886.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 71 and height 31?",
+      "correctAnswer": "1100.5",
+      "options": [
+        "1104.5",
+        "1098.0",
+        "1103.0",
+        "1100.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 100 and height 81?",
+      "correctAnswer": "4050.0",
+      "options": [
+        "4050.0",
+        "4047.5",
+        "4052.5",
+        "4054.0"
+      ]
+    }
+]

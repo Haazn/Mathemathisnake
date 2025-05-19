@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="level.css">
+    <script src="bg-music-player.js"></script>
+   <title>Squares Levels</title>
+
+    <style>
+    h1 {
+        font-size: 8vw;
+        position: absolute;
+        top: 2%;
+        left: 33.5%;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div>
+        <h1> Square </h1>
+        <img class="level" src="board.png" >
+    </div>
+
+    <div class="sign back">
+        <img src="onesign.png" alt="Wooden Sign" style="height: auto; width: 220px;">
+        <div class="text-overlay"><button style="font-size: 50px;"onclick="back()">↤Back</button></div>
+    </div>
+
+    <div class="level-list">
+        <ul>
+            <li><button onclick="startAdventureArea(1)"><img src="levels/1.jpg" alt="Level 1"></button></li>
+            <li><button onclick="startAdventureArea(6)"><img src="levels/6.jpg" alt="Level 6"></button></li>
+            <li><button onclick="startAdventureArea(2)"><img src="levels/2.jpg" alt="Level 2"></button></li>
+            <li><button onclick="startAdventureArea(7)"><img src="levels/7.jpg" alt="Level 7"></button></li>
+            <li><button onclick="startAdventureArea(3)"><img src="levels/3.jpg" alt="Level 3"></button></li>
+            <li><button onclick="startAdventureArea(8)"><img src="levels/8.jpg" alt="Level 8"></button></li>
+            <li><button onclick="startAdventureArea(4)"><img src="levels/4.jpg" alt="Level 4"></button></li>
+            <li><button onclick="startAdventureArea(9)"><img src="levels/9.jpg" alt="Level 9"></button></li>
+            <li><button onclick="startAdventureArea(5)"><img src="levels/5.jpg" alt="Level 5"></button></li>
+            <li><button onclick="startAdventureArea(10)"><img src="levels/10.png" alt="Level 10"></button></li>
+
+        </ul>
+
+
+    </div>
+
+    <script>
+
+        function back() {
+            window.location.href = "geometry.html";
+        }
+
+        const levelMapping = [1, 6, 2, 7, 3, 8, 4, 9, 5, 10];
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const maxUnlockedLevel = parseInt(localStorage.getItem('maxUnlockedLevel_squares')) || 1;
+
+            const levelListItems = document.querySelectorAll('.level-list ul li');
+
+            levelListItems.forEach((li, index) => {
+                const button = li.querySelector('button');
+                const img = li.querySelector('img');
+                const levelNumber = levelMapping[index]; 
+
+                if (!button || !img) return; 
+
+                if (levelNumber > maxUnlockedLevel) {
+
+                    li.classList.add('level-locked');
+
+                    button.disabled = true;
+                    button.style.cursor = 'not-allowed';
+                    img.style.opacity = '0.5';
+                    img.style.filter = 'grayscale(80%)';
+
+
+                } else {
+
+                    li.classList.remove('level-locked');
+
+                    button.disabled = false;
+                    button.style.cursor = 'pointer';
+                    img.style.opacity = '1';
+                    img.style.filter = 'none';
+                }
+            });
+        });
+
+        function startAdventureArea(levelNumber) {
+            const maxUnlockedLevel = parseInt(localStorage.getItem('maxUnlockedLevel_squares')) || 1;
+
+            if (levelNumber <= maxUnlockedLevel) {
+                 console.log(`Navigating to level ${levelNumber}`);
+                window.location.href = `geometry/square/adventure.html?levelsquare=${levelNumber}`;
+            } else {
+                alert(`Level ${levelNumber} is locked! Complete previous levels to unlock.`);
+                console.log(`Attempted to access locked level ${levelNumber}. Max unlocked: ${maxUnlockedLevel}`);
+            }
+        }
+
+        function resetAdventureProgress() {
+            localStorage.setItem('maxUnlockedLevel_squares', '1');
+            console.log("Progress reset. Max level unlocked: 1");
+            location.reload();
+        }
+
+
+        function unlockAdventureArea(levelNumber) {
+           const currentMax = parseInt(localStorage.getItem('maxUnlockedLevel_squares')) || 1;
+           if (levelNumber > currentMax) {
+               localStorage.setItem('maxUnlockedLevel_squares', levelNumber.toString());
+               console.log(`Unlocked levels up to ${levelNumber}`);
+               location.reload();
+           } else {
+               console.log(`Levels up to ${levelNumber} were already unlocked.`);
+           }
+        }
+    </script>
+</body>
+</html>

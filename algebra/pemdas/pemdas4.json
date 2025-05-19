@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (4 + 1 \u00d7 9) \u00f7 1?",
+      "correctAnswer": "13",
+      "options": [
+        "15",
+        "14",
+        "13",
+        "12"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 1 \u00d7 3) \u00f7 2?",
+      "correctAnswer": "6",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 7 \u00d7 5) \u00f7 3?",
+      "correctAnswer": "14",
+      "options": [
+        "14",
+        "16",
+        "13",
+        "15"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 4 \u00d7 1) \u00f7 5?",
+      "correctAnswer": "1",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 7 \u00d7 6) \u00f7 1?",
+      "correctAnswer": "44",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 3 \u00d7 8) \u00f7 1?",
+      "correctAnswer": "34",
+      "options": [
+        "36",
+        "34",
+        "33",
+        "35"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 3 \u00d7 2) \u00f7 2?",
+      "correctAnswer": "8",
+      "options": [
+        "10",
+        "7",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 10 \u00d7 9) \u00f7 3?",
+      "correctAnswer": "32",
+      "options": [
+        "34",
+        "31",
+        "32",
+        "33"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (9 + 2 \u00d7 8) \u00f7 3?",
+      "correctAnswer": "8",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (9 + 1 \u00d7 3) \u00f7 1?",
+      "correctAnswer": "12",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ]
+    }
+]

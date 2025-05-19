@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the median of these numbers:<br> [81, 82, 83, 84, 85, 86, 87, 88, 89]?",
+      "correctAnswer": "85",
+      "options": [
+        "84",
+        "85",
+        "86",
+        "87"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [82, 83, 84, 85, 86, 87, 88, 89, 90]?",
+      "correctAnswer": "86",
+      "options": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [83, 84, 85, 86, 87, 88, 89, 90, 91]?",
+      "correctAnswer": "87",
+      "options": [
+        "86",
+        "87",
+        "88",
+        "89"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [84, 85, 86, 87, 88, 89, 90, 91, 92]?",
+      "correctAnswer": "88",
+      "options": [
+        "87",
+        "88",
+        "89",
+        "90"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [85, 86, 87, 88, 89, 90, 91, 92, 93]?",
+      "correctAnswer": "89",
+      "options": [
+        "88",
+        "89",
+        "90",
+        "91"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [86, 87, 88, 89, 90, 91, 92, 93, 94]?",
+      "correctAnswer": "90",
+      "options": [
+        "89",
+        "90",
+        "91",
+        "92"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [87, 88, 89, 90, 91, 92, 93, 94, 95]?",
+      "correctAnswer": "91",
+      "options": [
+        "90",
+        "91",
+        "92",
+        "93"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [88, 89, 90, 91, 92, 93, 94, 95, 96]?",
+      "correctAnswer": "92",
+      "options": [
+        "91",
+        "92",
+        "93",
+        "94"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [89, 90, 91, 92, 93, 94, 95, 96, 97]?",
+      "correctAnswer": "93",
+      "options": [
+        "92",
+        "93",
+        "94",
+        "95"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [90, 91, 92, 93, 94, 95, 96, 97, 98]?",
+      "correctAnswer": "94",
+      "options": [
+        "93",
+        "94",
+        "95",
+        "96"
+      ]
+    }
+]

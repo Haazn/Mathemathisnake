@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the median of these numbers:<br> [61, 62, 63, 64, 65, 66, 67, 68, 161]?",
+      "correctAnswer": "65",
+      "options": [
+        "64",
+        "65",
+        "66",
+        "67"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [62, 63, 64, 65, 66, 67, 68, 69, 162]?",
+      "correctAnswer": "66",
+      "options": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [63, 64, 65, 66, 67, 68, 69, 70, 163]?",
+      "correctAnswer": "67",
+      "options": [
+        "66",
+        "67",
+        "68",
+        "69"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [64, 65, 66, 67, 68, 69, 70, 71, 164]?",
+      "correctAnswer": "68",
+      "options": [
+        "67",
+        "68",
+        "69",
+        "70"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [65, 66, 67, 68, 69, 70, 71, 72, 165]?",
+      "correctAnswer": "69",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [66, 67, 68, 69, 70, 71, 72, 73, 166]?",
+      "correctAnswer": "70",
+      "options": [
+        "69",
+        "70",
+        "71",
+        "72"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [67, 68, 69, 70, 71, 72, 73, 74, 167]?",
+      "correctAnswer": "71",
+      "options": [
+        "70",
+        "71",
+        "72",
+        "73"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [68, 69, 70, 71, 72, 73, 74, 75, 168]?",
+      "correctAnswer": "72",
+      "options": [
+        "71",
+        "72",
+        "73",
+        "74"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [69, 70, 71, 72, 73, 74, 75, 76, 169]?",
+      "correctAnswer": "73",
+      "options": [
+        "72",
+        "73",
+        "74",
+        "75"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [70, 71, 72, 73, 74, 75, 76, 77, 170]?",
+      "correctAnswer": "74",
+      "options": [
+        "73",
+        "74",
+        "75",
+        "76"
+      ]
+    }
+]

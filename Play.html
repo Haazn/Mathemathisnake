@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"/>
+  <title>Mathemathisnake</title>
+  <style>
+    * {
+      user-select: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Chewy", serif;
+      background-image: url('images/junglebackground_Play.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .scaling-container {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100vw;
+      height: 100vh;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .pole {
+      position: absolute;
+      top: 32%;
+      left: 42%;
+      transform: translateY(25vh);
+    }
+
+    .pole1 {
+      top: 15%;
+      transform: scaleX(-1);
+    }
+
+    .sign {
+      position: absolute;
+      transform: translateX(-50%);
+    }
+
+    .sign1 {
+      top: 8vh;
+      left: 49vw;
+    }
+
+    .sign2 {
+      top: 36vh;
+      left: 45vw;
+    }
+
+    .sign3 {
+      top: 60vh;
+      left: 53vw;
+    }
+
+    .logout {
+      top: 2vh;
+      right: 2vw;
+      transform: none;
+    }
+
+    .back {
+      top: 2vh;
+      left: 8vw;
+      display: none;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: -1vh;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 3vw;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      letter-spacing: 0.2vw;
+    }
+
+    .text-overlay button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 4vw;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      letter-spacing: 0.2vw;
+      cursor: pointer;
+      font-family: "Chewy", serif;
+    }
+
+    button:hover {
+      /* transform: scale(1); */ /* Let specific hover take precedence */
+    }
+
+    .text-overlay button:hover {
+      color: #ffcc00;
+      transform: scale(1.2);
+    }
+
+    .greetingsnake {
+      position: absolute;
+      top: 68vh;
+      right: 70vw;
+      width: 40vw;
+      height: 40vh;
+      z-index: 5;
+    }
+
+    .greetingsnake img,
+    .bubble img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .bubble {
+      position: absolute;
+      top: 40vh;
+      right: 60vw;
+      width: 40vw;
+      height: 40vh;
+      z-index: 5;
+    }
+
+    .greetings {
+      position: absolute;
+      color: black;
+      top: 38vh;
+      right: 71.5vw;
+      font-size: 2.5vw;
+      text-align: center;
+      z-index: 5;
+    }
+
+    .sign img {
+      width: auto;
+      max-width: 100%;
+    }
+
+    .sign1 img { width: 23vw; }
+    .sign2 img { width: 21vw; transform: scaleX(-1); }
+    .sign3 img { width: 22vw; }
+    .logout img,
+    .back img {
+      width: 10vw;
+      height: 6vw;
+    }
+
+    .logout .text-overlay button,
+    .back .text-overlay button {
+      font-size: 2.4vw;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="greetingsnake">
+    <img src="images/snake.png" />
+  </div>
+
+  <div class="bubble">
+    <img src="images/bubble.png" />
+  </div>
+
+  <div class="greetings">
+    <p class="bubblegreetings">Welcome To <br> Mathemathisnake, <br> Player</p>
+  </div>
+
+  <div class="scaling-container">
+    <div class="pole">
+      <img src="images/woodenpole.png" alt="Wooden Pole" style="height: 26.04vw;" />
+    </div>
+    <div class="pole pole1">
+      <img src="images/woodenpole.png" alt="Wooden Pole" style="height: 26.04vw;" />
+    </div>
+    <div class="sign sign1">
+      <img src="images/onesign.png" alt="Wooden Sign" />
+      <div class="text-overlay"><button onmouseover="playHoverSound()" onclick="redirectToMenu()">Play</button></div>
+    </div>
+    <div class="sign sign2">
+      <img src="images/onesign.png" alt="Wooden Sign" />
+      <div class="text-overlay"><button onmouseover="playHoverSound()" onclick="optionClick()">Options</button></div>
+    </div>
+    <div class="sign sign3">
+      <img src="images/onesign.png" alt="Wooden Sign" />
+      <div class="text-overlay"><button onmouseover="playHoverSound()" onclick="creditsClick()">Credits</button></div>
+    </div>
+
+    <div class="sign logout">
+      <img src="images/onesign.png" alt="Wooden Sign" />
+      <div class="text-overlay"><button onmouseover="playHoverSound()" onclick="logout()">Logout</button></div>
+    </div>
+  </div>
+
+  <div class="sign back">
+    <img src="images/onesign.png" alt="Wooden Sign" />
+    <div class="text-overlay"><button onmouseover="playHoverSound()" onclick="goBack()">↤Back</button></div>
+  </div>
+
+  <script>
+    const backgroundMusic = new Audio("audios/backgroundmusic.mp3");
+    const hoverSound = new Audio("hover.mp3");
+
+    function saveMusicState() {
+        if (backgroundMusic) {
+            localStorage.setItem('musicSrc', backgroundMusic.src);
+            localStorage.setItem('musicShouldBePlaying', String(!backgroundMusic.paused && !backgroundMusic.ended));
+            localStorage.setItem('musicTime', String(backgroundMusic.currentTime));
+            localStorage.setItem('musicMuted', String(backgroundMusic.muted));
+            localStorage.setItem('musicLoop', String(backgroundMusic.loop));
+            console.log("Saved music state:", {
+                src: backgroundMusic.src,
+                shouldPlay: !backgroundMusic.paused && !backgroundMusic.ended,
+                time: backgroundMusic.currentTime,
+                muted: backgroundMusic.muted,
+                loop: backgroundMusic.loop
+            });
+        }
+    }
+
+    window.onload = function() {
+      displayGreeting();
+
+      const musicSrcFromStorage = localStorage.getItem('musicSrc');
+      let shouldBePlayingFromStorage = localStorage.getItem('musicShouldBePlaying') === 'true';
+      const lastTime = parseFloat(localStorage.getItem('musicTime')) || 0;
+      let wasMutedFromStorage = localStorage.getItem('musicMuted') === 'true';
+      let shouldLoopFromStorage = localStorage.getItem('musicLoop') !== 'false'; 
+
+      backgroundMusic.src = musicSrcFromStorage || "audios/backgroundmusic.mp3";
+      backgroundMusic.currentTime = lastTime;
+      backgroundMusic.loop = shouldLoopFromStorage;
+      backgroundMusic.muted = wasMutedFromStorage;
+
+      if (musicSrcFromStorage === null) {
+          console.log("Play.html: No music state in localStorage. Attempting initial play.");
+          backgroundMusic.loop = true;
+          backgroundMusic.muted = false; 
+          
+          const playPromise = backgroundMusic.play();
+          if (playPromise !== undefined) {
+              playPromise.then(() => {
+                  console.log("Play.html: Initial music playback SUCCESSFUL.");
+                  saveMusicState(); 
+              }).catch(error => {
+                  console.warn("Play.html: Initial music autoplay was PREVENTED:", error);
+                  // saveMusicState(); 
+              });
+          }
+      } else {
+          console.log("Play.html: Music state found in localStorage. Applying.", { shouldBePlayingFromStorage, wasMutedFromStorage, lastTime, shouldLoopFromStorage });
+          if (shouldBePlayingFromStorage && !wasMutedFromStorage) {
+              const playPromise = backgroundMusic.play();
+              if (playPromise !== undefined) {
+                  playPromise.then(() => {
+                      console.log("Play.html: Resumed music playback from localStorage.");
+                  }).catch(error => {
+                      console.warn("Play.html: Resumed music autoplay was PREVENTED:", error);
+                  });
+              }
+          } else {
+              console.log("Play.html: Music was paused or muted according to localStorage. Not attempting to play automatically.");
+          }
+      }
+      updateMusicButtonInOptions();
+    };
+
+    window.addEventListener('beforeunload', saveMusicState);
+
+    function navigateAndSave(url) {
+        saveMusicState();
+        window.location.href = url;
+    }
+
+    function displayGreeting() {
+      let username = localStorage.getItem("currentUser") || "Player";
+      document.querySelector(".bubblegreetings").innerHTML = `Welcome To <br> Mathemathisnake, <br> ${username}!`;
+    }
+
+    function logout() {
+      saveMusicState();
+      localStorage.removeItem("currentUser");
+      navigateAndSave("index.html");
+    }
+
+    function playHoverSound() {
+      hoverSound.currentTime = 0;
+      hoverSound.play();
+    }
+
+    function muteSound() {
+      hoverSound.muted = true;
+    }
+
+    function unmuteSound() {
+      hoverSound.muted = false;
+    }
+
+    function updateMusicButtonInOptions() {
+        const optionsMusicButton = document.querySelector(".sign3 .text-overlay button");
+        if (optionsMusicButton && (optionsMusicButton.getAttribute("onclick") === "unmuteMusic()" || optionsMusicButton.getAttribute("onclick") === "muteMusic()")) {
+            if (backgroundMusic.muted) {
+                optionsMusicButton.textContent = "Unmute Music";
+                optionsMusicButton.setAttribute("onclick", "unmuteMusic()");
+            } else {
+                optionsMusicButton.textContent = "Mute Music";
+                optionsMusicButton.setAttribute("onclick", "muteMusic()");
+            }
+        }
+    }
+
+    function unmuteMusic() {
+      backgroundMusic.muted = false;
+      backgroundMusic.loop = true;
+      
+      if (backgroundMusic.paused) {
+        const playPromise = backgroundMusic.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(e => console.warn("Play after unmute failed:", e));
+        }
+      }
+      updateMusicButtonInOptions();
+      saveMusicState(); 
+    }
+
+    function muteMusic() {
+      backgroundMusic.muted = true;
+      updateMusicButtonInOptions();
+      saveMusicState(); 
+    }
+
+    function redirectToMenu() {
+      document.querySelector(".sign1 .text-overlay button").textContent = "Geometry";
+      document.querySelector(".sign2 .text-overlay button").textContent = "Algebra";
+      document.querySelector(".sign3 .text-overlay button").textContent = "Statistics";
+      document.querySelector(".sign1 .text-overlay button").setAttribute("onclick", "Geometry()");
+      document.querySelector(".sign2 .text-overlay button").setAttribute("onclick", "Algebra()");
+      document.querySelector(".sign3 .text-overlay button").setAttribute("onclick", "Statistics()");
+      document.querySelector(".back").style.display = "block";
+    }
+
+    function Geometry() { navigateAndSave("geometry.html"); }
+    function Algebra() { navigateAndSave("algebra.html"); }
+    function Statistics() { navigateAndSave("statistics.html"); }
+
+    function optionClick() {
+      document.querySelector(".sign1 .text-overlay button").textContent = "Mute Sound";
+      document.querySelector(".sign2 .text-overlay button").textContent = "Unmute Sound";
+      
+      if (backgroundMusic.muted) {
+          document.querySelector(".sign3 .text-overlay button").textContent = "Unmute Music";
+          document.querySelector(".sign3 .text-overlay button").setAttribute("onclick", "unmuteMusic()");
+      } else {
+          document.querySelector(".sign3 .text-overlay button").textContent = "Mute Music";
+          document.querySelector(".sign3 .text-overlay button").setAttribute("onclick", "muteMusic()");
+      }
+      
+      document.querySelector(".sign1 .text-overlay button").setAttribute("onclick", "muteSound()");
+      document.querySelector(".sign2 .text-overlay button").setAttribute("onclick", "unmuteSound()");
+      document.querySelector(".back").style.display = "block";
+    }
+
+    function creditsClick() {
+      document.querySelector(".back").style.display = "block";
+    }
+
+    function goBack() {
+      document.querySelector(".sign1 .text-overlay button").textContent = "Play";
+      document.querySelector(".sign2 .text-overlay button").textContent = "Options";
+      document.querySelector(".sign3 .text-overlay button").textContent = "Credits";
+      document.querySelector(".sign1 .text-overlay button").setAttribute("onclick", "redirectToMenu()");
+      document.querySelector(".sign2 .text-overlay button").setAttribute("onclick", "optionClick()");
+      document.querySelector(".sign3 .text-overlay button").setAttribute("onclick", "creditsClick()");
+      document.querySelector(".back").style.display = "none";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (1 + 2 \u00d7 5) \u00f7 5?",
+      "correctAnswer": "2",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 9 \u00d7 8) \u00f7 1?",
+      "correctAnswer": "79",
+      "options": [
+        "78",
+        "80",
+        "81",
+        "79"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 5 \u00d7 3) \u00f7 3?",
+      "correctAnswer": "8",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "7"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 8 \u00d7 3) \u00f7 5?",
+      "correctAnswer": "5",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (6 + 1 \u00d7 7) \u00f7 5?",
+      "correctAnswer": "2",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 9 \u00d7 5) \u00f7 4?",
+      "correctAnswer": "13",
+      "options": [
+        "12",
+        "15",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (8 + 3 \u00d7 10) \u00f7 5?",
+      "correctAnswer": "7",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (5 + 9 \u00d7 3) \u00f7 4?",
+      "correctAnswer": "8",
+      "options": [
+        "7",
+        "10",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (3 + 10 \u00d7 9) \u00f7 2?",
+      "correctAnswer": "46",
+      "options": [
+        "47",
+        "45",
+        "46",
+        "48"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 1 \u00d7 3) \u00f7 4?",
+      "correctAnswer": "1",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ]
+    }
+]

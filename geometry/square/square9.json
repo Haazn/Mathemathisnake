@@ -1,0 +1,102 @@
+[
+     {
+      "question": "What is the area of a square with<br> side length 41?",
+      "correctAnswer": "1681",
+      "options": [
+        "1683",
+        "1681",
+        "1679",
+        "1686"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 66?",
+      "correctAnswer": "4356",
+      "options": [
+        "4361",
+        "4358",
+        "4356",
+        "4354"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 30?",
+      "correctAnswer": "900",
+      "options": [
+        "900",
+        "902",
+        "905",
+        "898"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 41?",
+      "correctAnswer": "1681",
+      "options": [
+        "1686",
+        "1683",
+        "1681",
+        "1679"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 77?",
+      "correctAnswer": "5929",
+      "options": [
+        "5931",
+        "5927",
+        "5929",
+        "5934"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 49?",
+      "correctAnswer": "2401",
+      "options": [
+        "2399",
+        "2403",
+        "2406",
+        "2401"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 13?",
+      "correctAnswer": "169",
+      "options": [
+        "169",
+        "167",
+        "174",
+        "171"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 71?",
+      "correctAnswer": "5041",
+      "options": [
+        "5046",
+        "5043",
+        "5041",
+        "5039"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 59?",
+      "correctAnswer": "3481",
+      "options": [
+        "3483",
+        "3481",
+        "3479",
+        "3486"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 51?",
+      "correctAnswer": "2601",
+      "options": [
+        "2606",
+        "2603",
+        "2599",
+        "2601"
+      ]
+    }
+]

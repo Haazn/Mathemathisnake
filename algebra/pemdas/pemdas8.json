@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the result <br> of (8 + 9 \u00d7 5) \u00f7 5?",
+      "correctAnswer": "10",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "9"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (7 + 8 \u00d7 10) \u00f7 3?",
+      "correctAnswer": "29",
+      "options": [
+        "30",
+        "31",
+        "29",
+        "28"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (9 + 9 \u00d7 5) \u00f7 1?",
+      "correctAnswer": "54",
+      "options": [
+        "55",
+        "53",
+        "54",
+        "56"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (4 + 6 \u00d7 10) \u00f7 4?",
+      "correctAnswer": "16",
+      "options": [
+        "18",
+        "16",
+        "17",
+        "15"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 1 \u00d7 4) \u00f7 4?",
+      "correctAnswer": "3",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (2 + 1 \u00d7 10) \u00f7 1?",
+      "correctAnswer": "12",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (5 + 6 \u00d7 3) \u00f7 2?",
+      "correctAnswer": "11",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "10"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (10 + 8 \u00d7 8) \u00f7 2?",
+      "correctAnswer": "37",
+      "options": [
+        "37",
+        "36",
+        "39",
+        "38"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (5 + 10 \u00d7 3) \u00f7 1?",
+      "correctAnswer": "35",
+      "options": [
+        "36",
+        "34",
+        "37",
+        "35"
+      ]
+    },
+    {
+      "question": "What is the result <br> of (3 + 10 \u00d7 9) \u00f7 3?",
+      "correctAnswer": "31",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a square with<br> side length 16?",
+      "correctAnswer": "256",
+      "options": [
+        "256",
+        "254",
+        "261",
+        "258"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 28?",
+      "correctAnswer": "784",
+      "options": [
+        "789",
+        "786",
+        "784",
+        "782"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 57?",
+      "correctAnswer": "3249",
+      "options": [
+        "3254",
+        "3249",
+        "3247",
+        "3251"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 45?",
+      "correctAnswer": "2025",
+      "options": [
+        "2027",
+        "2030",
+        "2025",
+        "2023"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 34?",
+      "correctAnswer": "1156",
+      "options": [
+        "1156",
+        "1154",
+        "1158",
+        "1161"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 52?",
+      "correctAnswer": "2704",
+      "options": [
+        "2704",
+        "2709",
+        "2706",
+        "2702"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 12?",
+      "correctAnswer": "144",
+      "options": [
+        "142",
+        "149",
+        "146",
+        "144"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 58?",
+      "correctAnswer": "3364",
+      "options": [
+        "3366",
+        "3369",
+        "3364",
+        "3362"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 53?",
+      "correctAnswer": "2809",
+      "options": [
+        "2807",
+        "2811",
+        "2809",
+        "2814"
+      ]
+    },
+    {
+      "question": "What is the area of a square with<br> side length 44?",
+      "correctAnswer": "1936",
+      "options": [
+        "1938",
+        "1936",
+        "1941",
+        "1934"
+      ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the simplified form of<br> (1x + 10) + (10x + 1)?",
+      "correctAnswer": "11x + 11",
+      "options": [
+        "11x + 11",
+        "11x + 12",
+        "12x + 11",
+        "10x + 11"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (6x + 3) + (3x + 6)?",
+      "correctAnswer": "9x + 9",
+      "options": [
+        "10x + 9",
+        "8x + 9",
+        "9x + 9",
+        "9x + 10"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (6x + 9) + (9x + 6)?",
+      "correctAnswer": "15x + 15",
+      "options": [
+        "16x + 15",
+        "14x + 15",
+        "15x + 15",
+        "15x + 16"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (10x + 1) + (1x + 10)?",
+      "correctAnswer": "11x + 11",
+      "options": [
+        "10x + 11",
+        "11x + 11",
+        "12x + 11",
+        "11x + 12"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (5x + 10) + (10x + 5)?",
+      "correctAnswer": "15x + 15",
+      "options": [
+        "15x + 16",
+        "14x + 15",
+        "15x + 15",
+        "16x + 15"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (9x + 1) + (1x + 9)?",
+      "correctAnswer": "10x + 10",
+      "options": [
+        "11x + 10",
+        "10x + 11",
+        "9x + 10",
+        "10x + 10"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (3x + 1) + (1x + 3)?",
+      "correctAnswer": "4x + 4",
+      "options": [
+        "4x + 4",
+        "5x + 4",
+        "3x + 4",
+        "4x + 5"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (7x + 4) + (4x + 7)?",
+      "correctAnswer": "11x + 11",
+      "options": [
+        "11x + 12",
+        "11x + 11",
+        "10x + 11",
+        "12x + 11"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (7x + 3) + (3x + 7)?",
+      "correctAnswer": "10x + 10",
+      "options": [
+        "9x + 10",
+        "10x + 10",
+        "10x + 11",
+        "11x + 10"
+      ]
+    },
+    {
+      "question": "What is the simplified form of<br> (2x + 10) + (10x + 2)?",
+      "correctAnswer": "12x + 12",
+      "options": [
+        "11x + 12",
+        "12x + 12",
+        "13x + 12",
+        "12x + 13"
+      ]
+    }
+]

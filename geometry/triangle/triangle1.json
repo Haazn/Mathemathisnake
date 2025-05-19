@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What is the area of a triangle with<br> base 5 and height 1?",
+      "correctAnswer": "2.5",
+      "options": [
+        "5.0",
+        "6.5",
+        "2.5",
+        "0.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 2 and height 8?",
+      "correctAnswer": "8.0",
+      "options": [
+        "8.0",
+        "10.5",
+        "12.0",
+        "5.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 1 and height 2?",
+      "correctAnswer": "1.0",
+      "options": [
+        "1.0",
+        "-1.5",
+        "5.0",
+        "3.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 5 and height 6?",
+      "correctAnswer": "15.0",
+      "options": [
+        "12.5",
+        "17.5",
+        "15.0",
+        "19.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 1 and height 3?",
+      "correctAnswer": "1.5",
+      "options": [
+        "4.0",
+        "5.5",
+        "-1.0",
+        "1.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 6 and height 9?",
+      "correctAnswer": "27.0",
+      "options": [
+        "24.5",
+        "29.5",
+        "27.0",
+        "31.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 7 and height 5?",
+      "correctAnswer": "17.5",
+      "options": [
+        "20.0",
+        "17.5",
+        "21.5",
+        "15.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 2 and height 1?",
+      "correctAnswer": "1.0",
+      "options": [
+        "5.0",
+        "-1.5",
+        "1.0",
+        "3.5"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 9 and height 8?",
+      "correctAnswer": "36.0",
+      "options": [
+        "36.0",
+        "38.5",
+        "33.5",
+        "40.0"
+      ]
+    },
+    {
+      "question": "What is the area of a triangle with<br> base 8 and height 7?",
+      "correctAnswer": "28.0",
+      "options": [
+        "25.5",
+        "32.0",
+        "30.5",
+        "28.0"
+      ]
+    }
+]

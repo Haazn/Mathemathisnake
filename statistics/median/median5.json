@@ -1,0 +1,102 @@
+[
+      {
+      "question": "What is the median of these numbers:<br> [41, 42, 43, 44, 45, 46, 47]?",
+      "correctAnswer": "44",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [42, 43, 44, 45, 46, 47, 48]?",
+      "correctAnswer": "45",
+      "options": [
+        "44",
+        "45",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [43, 44, 45, 46, 47, 48, 49]?",
+      "correctAnswer": "46",
+      "options": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [44, 45, 46, 47, 48, 49, 50]?",
+      "correctAnswer": "47",
+      "options": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [45, 46, 47, 48, 49, 50, 51]?",
+      "correctAnswer": "48",
+      "options": [
+        "47",
+        "48",
+        "49",
+        "50"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [46, 47, 48, 49, 50, 51, 52]?",
+      "correctAnswer": "49",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [47, 48, 49, 50, 51, 52, 53]?",
+      "correctAnswer": "50",
+      "options": [
+        "49",
+        "50",
+        "51",
+        "52"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [48, 49, 50, 51, 52, 53, 54]?",
+      "correctAnswer": "51",
+      "options": [
+        "50",
+        "51",
+        "52",
+        "53"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [49, 50, 51, 52, 53, 54, 55]?",
+      "correctAnswer": "52",
+      "options": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "question": "What is the median of these numbers:<br> [50, 51, 52, 53, 54, 55, 56]?",
+      "correctAnswer": "53",
+      "options": [
+        "52",
+        "53",
+        "54",
+        "55"
+      ]
+    }
+]
