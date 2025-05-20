@@ -138,9 +138,15 @@
   </div>
 
   <script>
+    if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    // Option 1: Show a message and hide the content
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:50px;'>This website is not accessible on mobile devices.</h2>";
+    }
+
     function showRegister() {
       document.getElementById("login-container").style.display = "none";
       document.getElementById("register-container").style.display = "block";
+      
     }
 
     function showLogin() {
@@ -187,6 +193,7 @@
           document.getElementById("login-password").classList.remove("shake");
         }, 600);
       }
+
     });
   </script>
 </body>
